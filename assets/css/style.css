@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap'); */
 
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 /* Global CSS Start */
 
 * {
@@ -11,7 +12,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 h1,
@@ -20,7 +21,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 p {
@@ -59,7 +60,8 @@ img {
   width: 30%;
   margin: auto;
   text-align: center;
-} 
+}
+
 .logo img,
 .logo-hidden img {
   width: 30%;
@@ -78,7 +80,7 @@ img {
 .logo-hidden a {
   display: inline-block;
   width: 100%;
-  text-align:center;
+  text-align: center;
 }
 
 .logo-bottom a {
@@ -101,10 +103,11 @@ img {
   z-index: 9999;
   background-color: #fff;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: #000;
 }
 
 .site-header .container {
-   margin: 0 auto;
+  margin: 0 auto;
   padding: 0 10px;
 }
 
@@ -126,7 +129,7 @@ img {
 .main-navbar ul li a {
   padding: 5px;
   display: inline-block;
-  color: #fff;
+  color: #000;
   font-weight: 600;
   line-height: 30px;
   transition: 0.5sec all ease-in;
@@ -141,13 +144,15 @@ img {
 .desktop-hidden-menu {
   display: none;
 }
+
 .main-navbar-wrapper {
-  padding: 10px 0;
+  padding: 15px 0;
   display: flex;
   flex-direction: column;
   width: 100%;
   gap: 15px;
 }
+
 .main-navbar-r1 {
   display: flex;
   justify-content: space-between;
@@ -158,12 +163,13 @@ img {
   width: 35%;
   margin: auto 0;
   text-align: center;
-  }
-  .desktop-navlist2 {
-    width: 35%;
-    margin: auto 0;
-    text-align: center;
-  }
+}
+
+.desktop-navlist2 {
+  width: 35%;
+  margin: auto 0;
+  text-align: center;
+}
 
 .main-navbar-r2 {
   display: flex;
@@ -178,51 +184,54 @@ img {
 
 
 .desktop-navlist3 {
-  width: 70%;
+  width: 90%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 10px;
 }
-.main-navbar ul li {
+
+.main-navbar-r1 ul li {
   width: 40%;
   margin: 0 auto;
   background: #00C278;
+
+  background-color: #f3e9b2;
   border-radius: 25px;
   font-size: 20px;
   color: #fff;
   text-align: center;
   overflow: hidden;
 }
-/* .desktop-navlist2 li {
+
+.main-navbar-r2 ul li {
   width: 40%;
   margin: 0 auto;
-  background: #000;
-  border-radius: 5px;
+  background: #00C278;
+  background-color: #f3e9b2;
+  border-radius: 25px;
   font-size: 20px;
   color: #fff;
-} */
-
-
-
+  text-align: center;
+  overflow: hidden;
+}
 
 .logo img {
   display: inline-block;
 }
 
 .main-navbar ul li a.active {
+  background-color: #97FB57;
 
-  color:#97FB57;
+  color: #000;
 }
 
 .footer .footer-links ul li a.active {
-
   color: #97FB57;
 }
 
 .main-navbar ul li a:hover {
-  color: #fff;
-  /* background: #AC4E16; */
+  color: #000;
   background: #97FB57;
 }
 
@@ -249,4 +258,202 @@ img {
   cursor: pointer;
   margin: auto 0;
 }
+
 /* Header CSS End */
+
+/* Banner Section CSS Start */
+.banner {
+  position: relative;
+}
+
+.banner-image {
+  height: 550px;
+  width: 100%;
+}
+
+.banner-image img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0000007d;
+}
+
+.banner-text h1 {
+  font-size: 60px;
+  color: #fff;
+  display: block;
+  font-weight: 700;
+}
+
+.banner-text h2 {
+  font-size: 30px;
+  max-width: 800px;
+  margin: 10px auto;
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+}
+
+.banner-text-group {
+  animation: goturn 2.5s ease-in-out forwards;
+  opacity: 0;
+  transform: scale(0) translateY(-300px) rotateY(0deg);
+
+  text-align: center;
+}
+
+@keyframes goturn {
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0) rotateY(360deg);
+
+  }
+}
+
+/* Banner Section  CSS End */
+
+/* Home Cards CSS Start */
+.home-page-main-cards h2 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.home-page-main-cards {
+  padding: 50px 0;
+}
+
+.home-cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.home-card {
+  width: 47%;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 15px auto;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.home-card-image {
+  overflow: hidden;
+  height: 300px;
+
+}
+
+.home-card-image img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  object-fit: cover;
+  transition: 0.5s all ease-in-out;
+}
+
+.home-card:hover .home-card-image img {
+  transform: scale(1.3);
+}
+
+.home-card-image img:hover {
+  transform: scale(1.2);
+}
+
+.card-content {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background: rgba(0 0 0/40%);
+  background-blend-mode: multiply;
+
+}
+
+.card-content a {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  text-decoration: none;
+
+}
+
+.card-content a h3 {
+  font-size: 35px;
+}
+
+/* Home Cards CSS End*/
+
+/* Home Page Service CSS Start */
+.home-page-services-cards-section {
+  background-image: url("../images/news-section-bg.jpg");
+  background-color: rgba(0 0 0/70%);
+  background-blend-mode: multiply;
+  padding: 70px 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home-page-services-card {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fff;
+  margin-bottom: 25px;
+  border-radius: 15px;
+  overflow: hidden;
+  }
+
+.home-page-services-card:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.home-page-services-card:last-child {
+  margin-bottom: 0;
+}
+
+.home-page-services-card-image {
+  max-height: 250px;
+  overflow: hidden;
+  width: 40%;
+}
+
+.home-page-services-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.home-page-services-card-info {
+  padding: 40px;
+  width: 60%;
+}
+.home-page-services-card-info h3 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.home-page-services-card-info p {
+
+}
+

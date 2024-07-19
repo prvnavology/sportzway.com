@@ -818,10 +818,20 @@ color:#97fb57;
 }
 /* Pages Banner CSS End */
 /* Pages CSS End */
+/* .pages-cards-wrapper{
+  display: flex;
+  gap: 20px;
+} */
+.pages-cards {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 100%;
+}
 
 .pages-cards-image {
   position: relative;
-
 }
 .pages-cards-image-s2 h3 {
   color: #fff;
@@ -841,9 +851,73 @@ color:#97fb57;
   background-color: rgba(0 0 0/50%);
   background-blend-mode: multiply;
   transform: translate(-5%, 70%);
+  padding: 30px;
   }
   .pages-cards-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
+    padding: 20px 0px;
+}
+.pages-cards-content-s1,.pages-cards-content-s2 {
+  width: 48%;
+}
+.subpage-exp-content {
+  margin-top: 10px;
+  display: none;
+  font-weight: 500;
+  font-size: 15px;
+  color: #545556;
+  padding: 0 20px;
+}
+.text-center{
+  text-align: center;
+}
+.text-left{
+  text-align: left;
+}
+
+.btn-darkred-block {
+  margin-top: 10px;
+  color: #000;
+  background-color: #97fb57;
+  border: none;
+  outline: none;
+  padding: 10px 5px;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: 0.3s all ease-in-out;
+  cursor: pointer;
+  min-width: 115px;
+  line-height: 14px;
+  display: inline-block;
+  text-align: center;
+}
+
+.btn-darkred-block:hover {
+  background: #FFB152;}
+
+  .pages-cards button {
+    margin-bottom: 20px;
+ }
+.pages-link-btn {
+  display: inline-block;
+  margin-top: 10px;
+  color: #000;
+  background-color: #97fb57;
+  border: none;
+  outline: none;
+  padding: 10px 5px;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-left: 20px;
+  font-weight: 400;
+  transition: 0.3s all ease-in-out;
+  min-width: 115px;
+  line-height: 14px;
+  text-align: center;
+}
+
+.pages-link-btn:hover {
+  background: #FFB152;
 }

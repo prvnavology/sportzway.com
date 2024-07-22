@@ -1,4 +1,3 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 /* Global CSS Start */
 
@@ -14,9 +13,11 @@ body {
   font-family: "Raleway", sans-serif;
   word-break: break-word;
 }
+
 button {
   font-family: "Raleway", sans-serif;
 }
+
 h1,
 h2,
 h3,
@@ -71,10 +72,12 @@ img {
   max-width: 250px;
   vertical-align: middle;
 }
+
 .logo a,
-.logo-hidden a,.logo-bottom a {
+.logo-hidden a,
+.logo-bottom a {
   display: inline-block;
-    text-align: center;
+  text-align: center;
 }
 
 .logo-hidden {
@@ -98,6 +101,7 @@ img {
   margin: 0 auto;
   padding: 0 10px;
 }
+
 .website-header-wrapper {
   display: flex;
   justify-content: center;
@@ -105,18 +109,19 @@ img {
   flex-direction: column;
   padding: 5px 0;
 }
+
 .header-r2 {
   width: 100%;
-} 
+}
 
- .main-navbar {
+.main-navbar {
   display: flex;
   justify-content: space-ev;
-  gap: 10px; 
+  gap: 10px;
   align-items: center;
   width: 100%;
   flex-direction: column;
-}  
+}
 
 .main-navbar ul li a {
   padding: 5px;
@@ -163,18 +168,19 @@ img {
   margin: auto 0;
   text-align: center;
 }
+
 .main-navbar-r2 {
   display: flex;
   justify-content: center;
   width: 100%;
-} 
+}
 
 .desktop-navlist3 {
   width: 90%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-   background: #fff;
+  background: #fff;
   border-radius: 20px;
 }
 
@@ -387,6 +393,7 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .home-page-services-card {
   display: flex;
   flex-wrap: wrap;
@@ -420,7 +427,7 @@ img {
   transition: 0.6s all ease-in-out;
 }
 
-.home-page-services-card-image img:hover{
+.home-page-services-card-image img:hover {
   transform: scale(1.2);
 }
 
@@ -430,38 +437,46 @@ img {
   background: #97fb57;
   border-radius: 15px;
 }
+
 .home-page-services-card-info h3 {
   font-size: 35px;
   font-weight: 700;
   margin-bottom: 15px;
 }
+
 .home-page-services-card-info p {
   font-size: 20px;
   font-weight: 600;
 }
+
 /* Home Page Service CSS End */
 
 section.home-page-news-cards {
   padding: 70px 0;
 }
+
 .home-page-news-cards h2 {
   text-align: center;
   font-size: 40px;
   margin-bottom: 40px;
 }
+
 .home-page-news-cards .card-content a h3 {
   font-size: 25px;
   max-width: 311px;
   font-weight: 400;
 }
+
 .how-we-rate {
   padding-bottom: 70px;
 }
+
 .how-we-rate-wrapper h3 {
   font-size: 40px;
   text-align: center;
   margin-bottom: 40px;
 }
+
 .how-we-rate-wrapper p {
   font-weight: 600;
   font-size: 18px;
@@ -470,6 +485,7 @@ section.home-page-news-cards {
   margin: 0 auto;
   color: #545556;
 }
+
 /* Pages Contact Form CSS Start */
 .pages-contact-us-form {
   background-image: url("../images/form-bg.jpg");
@@ -479,6 +495,7 @@ section.home-page-news-cards {
   background-repeat: no-repeat;
   padding: 70px 0;
 }
+
 .pages-contact-us-form-wrapper {
   background-color: transparent;
   backdrop-filter: blur(50px);
@@ -497,6 +514,7 @@ section.home-page-news-cards {
   max-width: 800px;
   margin: 0 auto;
 }
+
 #contact {
   padding: 25px;
   margin: 50px 0 0 0;
@@ -531,9 +549,11 @@ fieldset {
   width: 45%;
   outline: none;
 }
+
 fieldset:nth-child(5) {
   width: 93%;
 }
+
 fieldset:last-child {
   width: 30%;
 }
@@ -596,6 +616,7 @@ fieldset:last-child {
 #contact button[type="submit"]:active {
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
 }
+
 #contact input:focus,
 #contact textarea:focus {
   outline: 0;
@@ -626,6 +647,7 @@ fieldset:last-child {
   align-items: center;
   gap: 20px;
 }
+
 .home-news-card {
   width: 48%;
   position: relative;
@@ -633,17 +655,20 @@ fieldset:last-child {
   overflow: hidden;
   border-radius: 10px;
 }
+
 .home-news-card-image {
   width: 100%;
   height: 100%;
   overflow: hidden;
 }
+
 .home-news-card-image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   transition: 0.7s all ease-in-out;
 }
+
 .home-news-card-content {
   position: absolute;
   display: flex;
@@ -676,9 +701,11 @@ fieldset:last-child {
   opacity: 1;
   visibility: visible;
 }
+
 .home-news-card:hover .home-news-card-image img {
   transform: scale(1.2);
 }
+
 .home-news-card-content h3 {
   text-align: center;
   max-width: 450px;
@@ -699,10 +726,12 @@ fieldset:last-child {
 
   color: #fff;
 }
+
 .logo-bottom {
   text-align: center;
   margin-bottom: 15px;
 }
+
 .footer-wrapper {
   display: flex;
   justify-content: space-evenly;
@@ -712,6 +741,7 @@ fieldset:last-child {
   border-bottom: 2px solid #fff;
   flex-wrap: wrap;
 }
+
 .footer-icons {
   text-align: center;
   margin: 7px;
@@ -721,6 +751,7 @@ fieldset:last-child {
   font-size: 30px;
   margin-bottom: 12px;
 }
+
 .footer-items ul li {
   font-size: 20px;
   font-weight: 500;
@@ -728,9 +759,11 @@ fieldset:last-child {
   transition: 0.4s all ease-in-out;
 
 }
+
 .footer-items ul li:hover {
   color: #97fb57;
 }
+
 .footer-items ul li a.active {
   color: #97fb57;
 }
@@ -754,17 +787,20 @@ fieldset:last-child {
   transform: scale(1.2);
   background-color: #97fb57;
 }
+
 .copyright {
   padding: 30px 0;
   text-align: center;
   margin: auto 0;
 }
+
 .copyright p {
   font-size: 15px;
   color: #fff;
   text-align: center;
   font-weight: 500;
 }
+
 /* Footer CSS End */
 
 /* Pages CSS Start */
@@ -775,6 +811,7 @@ fieldset:last-child {
   width: 100%;
   overflow: hidden;
 }
+
 .pages-banner-image img {
   object-fit: cover;
   width: 100%;
@@ -782,6 +819,7 @@ fieldset:last-child {
   display: block;
   overflow: hidden;
 }
+
 .pages-banner-text h1 {
   font-size: 45px;
   font-weight: 600;
@@ -806,9 +844,11 @@ fieldset:last-child {
     transform: rotateY(0deg);
   }
 }
+
 .pages-intro {
   padding: 40px 0px;
 }
+
 .pages-intro-wrapper p {
   max-width: 1130px;
   margin: 0 auto;
@@ -818,12 +858,15 @@ fieldset:last-child {
   color: #545556;
   line-height: 1.3;
 }
+
 .checked {
   color: #FFD700;
 }
+
 .fa-star {
   font-size: 17px;
 }
+
 /* Pages Banner CSS End */
 
 /* Pages CSS End */
@@ -841,37 +884,44 @@ fieldset:last-child {
   margin-bottom: 30px;
   border: 1px solid #000;
 }
+
 .pages-cards-outer-wrapper button {
   margin-bottom: 20px;
 }
+
 .pages-cards {
   position: relative;
 }
+
 .pages-cards-image {
   height: 400px;
   width: 100%;
 }
+
 .pages-cards-image img {
   height: 100%;
   width: 100%;
   object-fit: cover;
   display: block;
 }
+
 .pages-cards-content {
   position: absolute;
   height: 100%;
   width: 100%;
-  top: 10%;
-  left: 10%;
+  top: 0;
+  left: 0;
   background: rgba(0 0 0/50%);
   background-blend-mode: multiply;
-  transform: translate(-10%, -10%);
+  inset: 0;
 }
+
 .pages-cards-content h3,
 .pages-cards-content h4,
 .pages-cards-content ul li {
   color: #fff;
 }
+
 .pages-card-content-r1 {
   display: flex;
   width: 100%;
@@ -879,6 +929,7 @@ fieldset:last-child {
   padding: 40px;
   align-items: center;
 }
+
 .pages-card-content-r2 {
   display: flex;
   width: 100%;
@@ -886,12 +937,15 @@ fieldset:last-child {
   gap: 50px;
   padding: 0 30px;
 }
+
 .pages-card-content-r1 h3 {
   font-size: 30px;
 }
+
 .pages-card-content-r1 h4 {
   font-size: 25px;
 }
+
 .pages-card-content-r2 h3 {
   font-size: 30px;
   margin-bottom: 10px;
@@ -902,6 +956,7 @@ fieldset:last-child {
   font-weight: 500;
   margin-bottom: 6px;
 }
+
 .subpage-exp-content {
   margin-top: 10px;
   display: none;
@@ -910,9 +965,11 @@ fieldset:last-child {
   color: #545556;
   padding: 0 20px;
 }
+
 .text-center {
   text-align: center;
 }
+
 .text-left {
   text-align: left;
 }
@@ -935,18 +992,19 @@ fieldset:last-child {
   text-align: center;
   transition: 0.4s all ease-in-out;
   overflow: hidden;
-   border: 1px solid transparent; 
+  border: 1px solid transparent;
 }
 
 .btn-darkred-block:hover {
   background: #fff;
-color: #000;
-border-color:#000; 
+  color: #000;
+  border-color: #000;
 }
 
 .pages-cards button {
   margin-bottom: 20px;
 }
+
 .pages-link-btn {
   display: inline-block;
   margin-top: 10px;
@@ -959,7 +1017,7 @@ border-color:#000;
   font-size: 20px;
   margin-left: 20px;
   font-weight: 600;
-  border: 1px solid transparent; 
+  border: 1px solid transparent;
   min-width: 115px;
   line-height: 20px;
   text-align: center;
@@ -970,16 +1028,18 @@ border-color:#000;
   background: #fff;
   color: #000;
   border-color: #000;
-} 
+}
 
 .check-icon {
   font-size: 20px;
   color: #000;
 }
+
 .uncheck-icon {
   font-size: 14px;
   color: red;
 }
+
 .list-icon {
   background-color: #97fb57;
   display: inline-flex !important;
@@ -1000,12 +1060,14 @@ section.our-top-recommendations {
   border-radius: 20px;
   border: 1px solid #545556;
 }
+
 .top-recommendation-card-group-wrapper {
   display: flex;
   flex-wrap: wrap;
   padding: 50px 0 30px 0;
   justify-content: space-between;
 }
+
 .top-recommendation-card-group {
   width: 49%;
   padding: 40px 20px;
@@ -1016,43 +1078,55 @@ section.our-top-recommendations {
     rgba(0, 0, 0, 0.3) 0px 30px 20px -30px,
     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
- .different-cards .top-recommendation-card-group:last-child {
+
+.different-cards .top-recommendation-card-group:last-child {
   width: 100%;
 }
+
 .out-top-recommendations .text-center {
   margin-bottom: 15px;
   margin-top: 15px;
 }
+
 .out-top-recommendations-wrapper {
   text-align: center;
-}.top-recommendation-card-r1 {
+}
+
+.top-recommendation-card-r1 {
   max-width: 770px;
   margin: 0 auto;
 }
+
 .top-recommendation-card-r1 h2 {
   font-size: 30px;
 
 }
+
 .top-recommendation-card-r1 h3 {
   font-size: 20px;
   margin: 7px 0;
 }
+
 .top-recommendation-card-r1 ul li {
   margin-bottom: 5px;
   font-weight: 600;
 }
+
 .top-recommendation-card-group h3 {
   font-size: 22px;
   margin-bottom: 7px;
 }
+
 .top-recommendation-card-group p {
   font-weight: 600;
 }
+
 .after-text-card-para {
   max-width: 1100px;
   margin: 0 auto;
   text-align: center;
 }
+
 .after-text-card-para p {
   color: #545556;
   font-weight: 600;
@@ -1103,6 +1177,7 @@ section.our-top-recommendations {
   background-repeat: no-repeat;
   padding: 50px 0px;
 }
+
 .join-our-forum-wrapper {
   background-color: transparent;
   backdrop-filter: blur(50px);
@@ -1112,12 +1187,14 @@ section.our-top-recommendations {
   border-radius: 10px;
   border: 1px solid #fff;
 }
+
 .join-our-forum-wrapper h2 {
   text-align: center;
   font-size: 40px;
   margin-bottom: 15px;
   color: #fff;
 }
+
 .join-our-forum-wrapper p {
   max-width: 1000px;
   margin: 0 auto;
@@ -1129,16 +1206,19 @@ section.our-top-recommendations {
 .pages-how-we-rate {
   padding: 50px 0;
 }
+
 .pages-how-we-rate h2 {
   text-align: center;
   margin-bottom: 20px;
   font-size: 40px;
 }
+
 .page-how-we-rate-wrapper {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
 .pages-how-we-rate-cards {
   width: 32%;
   padding: 30px;
@@ -1152,6 +1232,7 @@ section.our-top-recommendations {
   transition: color 0.5s, box-shadow 0.3s;
   text-align: center;
 }
+
 .pages-how-we-rate-cards::before {
   content: "";
   position: absolute;
@@ -1164,6 +1245,7 @@ section.our-top-recommendations {
   transition: transform 0.3s;
   z-index: -1;
 }
+
 .pages-how-we-rate-cards:hover::before {
   transform: translateY(0);
 }
@@ -1172,16 +1254,20 @@ section.our-top-recommendations {
   color: #000;
   z-index: 10;
 }
+
 .rate-cards-icon i {
   margin-bottom: 10px;
 }
+
 .pages-how-we-rate-cards h3 {
   margin-bottom: 7px;
 }
+
 .pages-how-we-rate-cards p {
   font-weight: 600;
   color: #545556;
 }
+
 .rate-icon {
   display: inline-flex !important;
   justify-content: center;
@@ -1193,13 +1279,16 @@ section.our-top-recommendations {
   line-height: 20px;
   border-radius: 5px;
 }
+
 @keyframes bounce {
+
   0%,
   100% {
     transform: translateY(0);
   }
+
   50% {
-    transform: translateY(-5px)  scale(1.1);
+    transform: translateY(-5px) scale(1.1);
   }
 }
 
@@ -1210,10 +1299,12 @@ section.our-top-recommendations {
 .pages-tips-section {
   padding: 20px 0 60px;
 }
+
 .pages-tips-wrapper {
   max-width: 1100px;
   margin: 0 auto;
 }
+
 .pages-tips-wrapper h2 {
   text-align: center;
   margin-bottom: 20px;
@@ -1223,6 +1314,7 @@ section.our-top-recommendations {
 .accordion_container {
   width: 100%;
 }
+
 .accordion_head {
   background-color: #97fb57;
   color: #000;
@@ -1235,16 +1327,19 @@ section.our-top-recommendations {
   justify-content: space-between;
   border-radius: 7px;
 }
+
 .accordion_body {
   background: #fff;
   display: none;
 }
+
 .accordion_body p {
   padding: 20px 10px;
   margin: 0px;
   color: #545556;
   font-weight: 600;
 }
+
 .plusminus {
   font-size: 25px;
   color: #545556;
@@ -1259,14 +1354,15 @@ section.our-top-recommendations {
   justify-content: center;
   flex-wrap: wrap;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 20px 20px -20px,
-  rgba(0, 0, 0, 0.3) 0px 30px 20px -30px,
-  rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    rgba(0, 0, 0, 0.3) 0px 30px 20px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   margin-bottom: 20px;
   border-radius: 10px;
   overflow: hidden;
   background-color: #97fb57;
- }
- .about-us-wrapper > p {
+}
+
+.about-us-wrapper>p {
   max-width: 1000px;
   margin: 0 auto;
   text-align: center;
@@ -1275,20 +1371,24 @@ section.our-top-recommendations {
   font-weight: 600;
   font-size: 18px;
 }
+
 .about-us-wrapper {
   padding-bottom: 50px;
 }
+
 .about-us-card-image {
   width: 40%;
   max-height: 20px;
   height: 100%;
 }
+
 .about-us-card-image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   display: block;
 }
+
 .about-us-card-content {
   width: 60%;
   height: 100%;
@@ -1296,28 +1396,33 @@ section.our-top-recommendations {
   color: #545556;
 }
 
-.about-us-card-content h3{
+.about-us-card-content h3 {
   font-size: 25px;
   margin-bottom: 10px;
 }
-.about-us-card-content p{
+
+.about-us-card-content p {
   font-size: 18px;
- font-weight: 500;
+  font-weight: 500;
 }
-.about-us-card-content ul li{
+
+.about-us-card-content ul li {
   font-size: 18px;
- font-weight: 500;
- margin-bottom: 5px;
- list-style-type: disc;
- margin-left: 16px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  list-style-type: disc;
+  margin-left: 16px;
 }
+
 .about-us-card:nth-child(even) {
   flex-direction: row-reverse;
 }
-.heading-like{
+
+.heading-like {
   font-weight: 700;
   color: #000;
 }
+
 /* About US PAge CSS End*/
 
 
@@ -1325,11 +1430,13 @@ section.our-top-recommendations {
 .privacy-policy {
   padding: 40px 0;
 }
-.privacy-policy-wrapper{
+
+.privacy-policy-wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
 .privacy-policy-group {
   width: 49%;
 
@@ -1337,17 +1444,20 @@ section.our-top-recommendations {
   padding: 20px 25px;
   border-radius: 10px;
   margin-bottom: 25px;
-border: 1px solid;
+  border: 1px solid;
 }
-.privacy-policy-group:last-child{
+
+.privacy-policy-group:last-child {
   width: 100%;
 }
+
 .privacy-policy-group p {
   margin-top: 7px;
   color: #545556;
   font-size: 17px;
   font-weight: 500;
 }
+
 /* Privacy Policy Page CSS Start */
 
 
@@ -1355,6 +1465,7 @@ border: 1px solid;
 .terms-conditions-content {
   padding: 50px 0 0 0;
 }
+
 .terms-conditions-group {
   padding: 15px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -1395,9 +1506,86 @@ border: 1px solid;
   list-style: disc;
   margin-left: 17px;
 }
+
 /* Terms Conditons CSS End */
 
+/* News Section CSS Start */
+section.news-page-info {
+  padding: 50px 10px;
 
+}
 
+.news-page-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
 
+.news-wrapper {
+  border: 1px solid #c9cacc;
+  border-radius: 20px;
+}
 
+.news-page-image {
+  max-height: 350px;
+  overflow: hidden;
+  border-radius: 20px 20px 0 0;
+}
+
+.news-page-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.news-page-details {
+  padding: 25px 20px;
+}
+
+.news-page-details h3 {
+  margin-bottom: 10px;
+}
+
+.news-page-details p {
+  font-weight: 600;
+  font-size: 17px;  
+  color: #545556;
+  margin-bottom: 10px;
+  line-height: 1.3;
+}
+
+.news-page-details ul li {
+  font-weight: 600;
+  font-size: 17px;
+  color: #545556;
+  margin-bottom: 3px;
+  list-style: disc;
+  margin-left: 16px;
+  line-height: 1.3;
+}
+.news-page-details ol li{
+  font-weight: 600;
+  font-size: 17px;
+  color: #545556;
+  margin-bottom: 3px;
+   margin-left: 16px;
+   line-height: 1.3;
+}
+.news-page-cards{
+  border: 1px solid #c9cacc;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+.news-page-details .no-list li{
+  list-style-type: none;
+  margin-left: 0;
+}
+.circle{
+  font-size: 9px;
+  margin-right: 8px;
+}
+.red-circle{
+  color: red;
+}
+.green-circle{
+  color: green;
+}

@@ -1,0 +1,433 @@
+@media screen and (max-width: 991px) {
+
+    .logo img,
+    .logo-bottom img {
+        width: 50%;
+    }
+
+    .main-navbar-r2 ul li {
+        width: 70%;
+    }
+
+    .home-page-main-cards h2 {
+        font-size: 35px;
+        max-width: 730px;
+    }
+
+    .home-news-card {
+        max-height: 190px;
+    }
+
+    .home-news-card-content h3 {
+        max-width: 350px;
+        font-size: 19px;
+    }
+
+    .how-we-rate-wrapper p {
+        padding: 0 10px;
+        text-align: center;
+    }
+
+    .banner-image .pages-banner-image {
+        height: 320px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+
+    .main-navbar-r2 {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100%;
+        padding: 50px;
+        background-color: #fff;
+        transform: translateY(100%);
+        transition: all 0.3s linear;
+        z-index: 100;
+        color: #fff;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .menuToggle .main-navbar-r2 {
+        transform: translateX(0);
+        z-index: 100;
+    }
+
+    .main-navbar-r2 ul {
+        flex-direction: column;
+        z-index: 50;
+    }
+
+    .main-navbar-r2 ul li {
+        width: 100%;
+    }
+
+    .menu-bar ul li a {
+        color: #fff;
+        text-align: left;
+        font-size: 13px;
+        line-height: 10px;
+        font-weight: 500;
+    }
+
+    .main-navbar ul li a.active {
+        color: #97fb57;
+        background-color: #fff;
+    }
+
+    .website-header-wrapper {
+        justify-content: space-between;
+        flex-direction: row;
+        padding: 10px 0;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .close-icon {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        display: block;
+        color: #000;
+        text-align: end;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .main-navbar-r1 {
+        display: none;
+    }
+
+    .logo-hidden {
+        display: inline-block;
+    }
+
+    .desktop-hidden-menu {
+        display: block;
+    }
+
+    .logo-hidden img {
+        width: 50%;
+    }
+
+    .logo-hidden a {
+        text-align: left;
+    }
+
+    .banner-image {
+        height: 370px;
+    }
+
+    .home-page-main-cards h2 {
+        font-size: 30px;
+        max-width: 550px;
+    }
+
+    .home-card-image {
+        height: 250px;
+    }
+
+    .card-content a h3 {
+        font-size: 30px;
+    }
+
+    .home-page-services-card {
+        gap: 0px;
+
+    }
+
+    .home-page-services-card-info {
+        border-radius: 0px;
+    }
+
+    .home-page-services-card-info h3 {
+        font-size: 23px;
+        margin-bottom: 10px;
+    }
+
+    .home-page-services-card-image {
+        border-radius: 0px;
+    }
+
+    .home-page-services-card-info p {
+        font-size: 16px;
+
+    }
+
+    .home-news-card {
+        width: 100%;
+        max-height: 230px;
+    }
+
+    .how-we-rate-wrapper h3 {
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+
+    .how-we-rate-wrapper p {
+        font-size: 16px;
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    .pages-contact-us-form-wrapper {
+        padding: 30px 10px;
+
+    }
+
+    .pages-contact-us-form-wrapper h3 {
+        font-size: 35px;
+    }
+
+    .pages-contact-us-form-wrapper h3 {
+        font-size: 35px;
+        margin: 15px auto;
+    }
+
+    #contact {
+        padding: 15px;
+    }
+
+    .banner-image .pages-banner-image {
+        height: 280px;
+    }
+
+    .home-page-main-cards {
+        padding: 40px 0;
+    }
+
+    section.home-page-news-cards {
+        padding: 30px 0;
+    }
+
+    section.home-page-news-cards {
+        padding: 30px 0;
+    }
+
+    .pages-intro-wrapper p {
+        font-size: 15px;
+        padding: 0 10px;
+    }
+
+    section.our-top-recommendations {
+        padding: 10px;
+    }
+
+    .after-text-card-para p {
+        font-size: 15px;
+    }
+
+
+
+
+
+
+
+
+
+
+}
+
+@media screen and (max-width: 575px) {
+    .banner-image {
+        height: 330px;
+    }
+
+    .banner-text h1 {
+        font-size: 40px;
+    }
+
+    .banner-text h2 {
+        font-size: 25px;
+    }
+
+    .home-page-main-cards h2 {
+        font-size: 25px;
+        max-width: 450px;
+    }
+
+
+
+    .card-content a h3 {
+        font-size: 23px;
+    }
+
+    .home-page-services-card-image {
+        width: 100%;
+        border-radius: 0px;
+        max-height: 230px;
+    }
+
+    .home-page-services-card-info {
+        padding: 25px;
+        width: 100%;
+        border-radius: 0px;
+    }
+
+    .home-page-services-card-info h3 {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    .home-news-card-content h3 {
+        max-width: 400px;
+        font-size: 20px;
+    }
+
+    .how-we-rate-wrapper h3 {
+        font-size: 28px;
+    }
+
+    .how-we-rate-wrapper p {
+        font-size: 15px;
+    }
+
+    .pages-contact-us-form-wrapper h3 {
+        font-size: 33px;
+    }
+
+    #contact {
+        padding: 0px;
+    }
+
+    fieldset {
+        width: 100%;
+    }
+
+    fieldset:nth-child(5) {
+        width: 100%;
+    }
+
+    .footer-wrapper {
+        text-align: center;
+    }
+
+    .footer-items {
+        margin: 20px auto;
+        width: 100%;
+    }
+
+    .pages-banner-text h1 {
+        font-size: 30px;
+    }
+
+    .pages-banner-text h3 {
+        font-size: 20px;
+    }
+
+    .banner-image .pages-banner-image {
+        height: 280px;
+    }
+
+    .home-page-main-cards {
+        padding: 30px 0;
+    }
+
+    section.home-page-news-cards {
+        padding: 20px 0;
+    }
+
+    section.home-page-news-cards {
+        padding: 20px 0;
+    }
+
+    .pages-intro-wrapper p {
+        font-size: 14px;
+    }
+
+    .top-recommendation-card-group {
+        width: 100%;
+    }
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+
+    .logo-hidden img,
+    .logo-bottom img {
+        width: 45%;
+    }
+
+    .banner-image {
+        height: 280px;
+    }
+
+    .banner-text h1 {
+        font-size: 40px;
+    }
+
+    .banner-text h2 {
+        font-size: 20px;
+    }
+
+    .home-page-main-cards h2 {
+        font-size: 20px;
+        max-width: 225px;
+    }
+
+    .home-card {
+        width: 100%;
+    }
+
+    .home-page-services-card-image {
+        width: 100%;
+        border-radius: 0px;
+        max-height: 200px;
+    }
+
+    .home-news-card-content h3 {
+        max-width: 270px;
+        font-size: 16px;
+    }
+
+    .how-we-rate-wrapper h3 {
+        font-size: 25px;
+    }
+
+    .how-we-rate-wrapper p {
+        font-size: 13px;
+
+    }
+
+    .pages-contact-us-form-wrapper h3 {
+        font-size: 30px;
+    }
+
+    .pages-banner-text h1 {
+        font-size: 30px;
+    }
+
+    .pages-banner-text h3 {
+        font-size: 20px;
+    }
+
+    .banner-image .pages-banner-image {
+        height: 280px;
+    }
+
+    .pages-intro-wrapper p {
+        font-size: 13px;
+    }
+
+    .pages-cards-section h2 {
+        font-size: 20px;
+        max-width: 300px;
+        margin: 0 auto 15px;
+    }
+
+
+}

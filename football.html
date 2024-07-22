@@ -7,45 +7,56 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="icon" href="./assets/images/favicon.ico">
     <title>Fantasy Football</title>
 </head>
 
 <body>
+
     <!-- Header Start -->
     <header class="site-header">
         <div class="container">
-            <nav class="desktop-menu">
-                <div class="logo-hidden">
-                    <a href="./index.html"><img src="./assets/images/logo.png" alt="logo"></a>
-                </div>
-                <div class="main-navbar">
-                    <div class="main-navbar-wrapper">
-                        <div class="main-navbar-r1">
-                            <ul class="desktop-navlist1">
-                                <li><a href="./index.html">Home</a></li>
-                            </ul>
-                            <div class="logo">
-                                <a href="./index.html"><img src="./assets/images/logo.png" alt="logo"></a>
-                            </div>
-                            <ul class="desktop-navlist2">
-                                <li><a href="./about-us.html">About Us</a> </li>
-                            </ul>
-                        </div>
-                        <div class="main-navbar-r2">
-                            <ul class="desktop-navlist3">
-                                <li class="desktop-hidden-menu"><a class="active " href="./index.html">Home</a></li>
-                                <li class="desktop-hidden-menu"><a href="./about-us.html">About Us</a> </li>
-                                <li><a class="active" href="./football.html">Fantasy Football</a></li>
-                                <li><a href="./hockey.html">Fantasy Hockey</a></li>
-                                <li><a href="./soccer.html">Fantasy Soccer</a></li>
-                                <li><a href="./basketball.html">Fantasy Basketball</a></li>
-                            </ul>
-                        </div>
+            <div class="website-header-wrapper">
+                <div class="header-r1">
+                    <div class="logo-hidden">
+                        <a href="./index.html"><img src="./assets/images/logo.png" alt="logo"></a>
                     </div>
-                    <div class="close-icon"><i class="fa-solid fa-x"></i></div>
                 </div>
-                <div class="menu-icon"><i class="fa-solid fa-bars"></i></div>
-            </nav>
+
+                <div class="header-r2">
+                    <nav class="desktop-menu-navbar">
+                        <div class="main-navbar">
+                            <!-- <div class="main-navbar-wrapper"> -->
+                                <div class="main-navbar-r1">
+                                    <ul class="desktop-navlist1">
+                                        <li><a  href="./index.html">Home</a></li>
+                                    </ul>
+                                    <div class="logo">
+                                        <a href="./index.html"><img src="./assets/images/logo.png" alt="logo"></a>
+                                    </div>
+                                    <ul class="desktop-navlist2">
+                                        <li><a href="./about-us.html">About Us</a> </li>
+                                    </ul>
+                                </div>
+                                <div class="main-navbar-r2">
+                                    <ul class="desktop-navlist3">
+                                        <li class="desktop-hidden-menu"><a href="./index.html">Home</a>
+                                        </li>
+                                        <li class="desktop-hidden-menu"><a href="./about-us.html">About Us</a> </li>
+                                        <li><a class="active " href="./football.html">Fantasy Football</a></li>
+                                        <li><a href="./hockey.html">Fantasy Hockey</a></li>
+                                        <li><a href="./soccer.html">Fantasy Soccer</a></li>
+                                        <li><a href="./basketball.html">Fantasy Basketball</a></li>
+                                    </ul>
+                                    <div class="close-icon"><i class="fa-solid fa-x"></i></div>
+                                </div>
+                            <!-- </div> -->
+                        </div>
+                        <div class="menu-icon"><i class="fa-solid fa-bars"></i></div>
+                    </nav>
+                 
+                </div>
+            </div>
         </div>
     </header>
     <!-- Header End -->
@@ -275,7 +286,7 @@
                                     <div class="pages-cards-content-r21">
                                         <h3>Pros:</h3>
                                         <ul>
-                                            <li><i class="fa-solid fa-check check-icon list-icon"></i>Comprehensive
+                                            <li><i class="fa-solid fa-check check-icon list-icon "></i>Comprehensive
                                                 player
                                                 statistics and analysis
                                             </li>
@@ -390,7 +401,7 @@
     <!-- Pages Cards Section End -->
 
     <!-- Our Top Recommendation Section  Start-->
-    <section class="out-top-recommendations">
+    <section class="our-top-recommendations">
         <div class="container">
             <div class="out-top-recommendations-wrapper">
                 <h2>Our Experts Pick</h2>
@@ -410,7 +421,7 @@
                         updates</li>
                 </ul>
             </div>
-            <div class="top-recommendation-card-group-wrapper">
+            <div class="top-recommendation-card-group-wrapper different-cards">
                 <div class="top-recommendation-card-group">
                     <h3>User Experience and Interface:</h3>
                     <p>Yahoo Fantasy Sports offers a user-friendly interface that
@@ -477,7 +488,7 @@
     <section class="join-our-forum">
         <div class="container">
             <div class="join-our-forum-wrapper">
-                <h2>Join Our Forum</h2>
+             <h2>Join Our Forum</h2>
                 <p>Sportzway forum is a way for you to dive into the world of fantasy sports with like-minded
                     enthusiasts. Whether you're new to fantasy sports or a seasoned player, our forum provides
                     a welcoming space to discuss strategies, share tips, and connect with others who share your
@@ -502,7 +513,7 @@
 
                 <div class="pages-how-we-rate-cards">
                     <div>
-                        <div class="rate-cards-icon"><i class="fa-solid fa-laptop rate-icon"></i></div>
+                        <div class="rate-cards-icon"><i class="fa-solid fa-laptop rate-icon bounce"></i></div>
                         <h3>User Interface</h3>
                         <p>Easy navigation, intuitive design.</p>
                     </div>
@@ -510,7 +521,7 @@
 
                 <div class="pages-how-we-rate-cards">
                     <div>
-                        <div class="rate-cards-icon"><i class="fa-regular fa-rectangle-list rate-icon"></i></div>
+                        <div class="rate-cards-icon"><i class="fa-regular fa-rectangle-list rate-icon bounce"></i></div>
                         <h3>Scoring System</h3>
                         <p>Clear rules, customization options.</p>
                     </div>
@@ -518,7 +529,7 @@
 
                 <div class="pages-how-we-rate-cards">
                     <div>
-                        <div class="rate-cards-icon"><i class="fa-solid fa-user rate-icon"></i> </div>
+                        <div class="rate-cards-icon"><i class="fa-solid fa-user rate-icon bounce"></i> </div>
                         <h3>Player Info</h3>
                         <p>Detailed stats, injury updates.</p>
                     </div>
@@ -526,7 +537,7 @@
 
                 <div class="pages-how-we-rate-cards">
                     <div>
-                        <div class="rate-cards-icon"><i class="fa-solid fa-microchip rate-icon"></i> </div>
+                        <div class="rate-cards-icon"><i class="fa-solid fa-microchip rate-icon bounce"></i> </div>
                         <h3>Drafting</h3>
                         <p>Smooth process, mock drafts available.</p>
                     </div>
@@ -534,7 +545,7 @@
 
                 <div class="pages-how-we-rate-cards">
                     <div>
-                        <div class="rate-cards-icon"><i class="fa-solid fa-mobile-screen-button rate-icon"></i> </div>
+                        <div class="rate-cards-icon"><i class="fa-solid fa-mobile-screen-button rate-icon bounce"></i> </div>
                         <h3>Mobile App</h3>
                         <p>Functionality, ease of use on
                             the go.</p>
@@ -543,7 +554,7 @@
 
                 <div class="pages-how-we-rate-cards">
                     <div>
-                        <div class="rate-cards-icon"><i class="fa-solid fa-screwdriver-wrench rate-icon"></i> </div>
+                        <div class="rate-cards-icon"><i class="fa-solid fa-screwdriver-wrench rate-icon bounce"></i> </div>
                         <h3>Customization</h3>
                         <p>Options for league settings</p>
                     </div>
@@ -551,7 +562,7 @@
 
                 <div class="pages-how-we-rate-cards">
                     <div>
-                        <div class="rate-cards-icon"><i class="fa-solid fa-dollar-sign rate-icon"></i></div>
+                        <div class="rate-cards-icon"><i class="fa-solid fa-dollar-sign rate-icon bounce"></i></div>
                         <h3>Cost</h3>
                         <p>Free or paid features, value for money</p>
                     </div>
@@ -559,7 +570,7 @@
 
                 <div class="pages-how-we-rate-cards">
                     <div>
-                        <div class="rate-cards-icon"><i class="fa-solid fa-shield rate-icon"></i></div>
+                        <div class="rate-cards-icon"><i class="fa-solid fa-shield rate-icon bounce"></i></div>
                         <h3>Security </h3>
                         <p>Data protection, reliable service. </p>
                     </div>
@@ -567,7 +578,7 @@
 
                 <div class="pages-how-we-rate-cards">
                     <div>
-                        <div class="rate-cards-icon"><i class="fa-solid fa-computer rate-icon"></i> </div>
+                        <div class="rate-cards-icon"><i class="fa-solid fa-computer rate-icon bounce "></i> </div>
                         <h3>Updates</h3>
                         <p>Regular improvements, new features.</p>
                     </div>
@@ -587,7 +598,7 @@
                         <span class="plusminus">+</span>
 
                     </div>
-                    <div class="accordion_body" style="display: none;">
+                    <div class="accordion_body">
                         <p>Understand how your league scores points. Whether it's standard scoring, PPR (points per
                             reception), or another format, tailor your draft and lineup decisions accordingly.</p>
                     </div>
@@ -595,14 +606,14 @@
                         <span class="plusminus">+</span>
 
                     </div>
-                    <div class="accordion_body" style="display: none;">
+                    <div class="accordion_body">
                         <p>Stay updated with player news, injuries, and depth chart changes. Follow expert analyses
                             and use reliable sources to make informed decisions.
                         </p>
                     </div>
                     <div class="accordion_head">Mock Drafts<span class="plusminus">+</span>
                     </div>
-                    <div class="accordion_body" style="display: none;">
+                    <div class="accordion_body">
                         <p>Practice makes perfect. Participate in mock drafts to familiarize yourself with different
                             draft
                             strategies, player values, and draft positions.
@@ -613,7 +624,7 @@
                         <span class="plusminus">+</span>
 
                     </div>
-                    <div class="accordion_body" style="display: none;">
+                    <div class="accordion_body">
                         <p>While high-risk players can provide upside, balance them with consistent performers who
                             deliver reliable points week after week.</p>
                     </div>
@@ -622,7 +633,7 @@
                         <span class="plusminus">+</span>
 
                     </div>
-                    <div class="accordion_body" style="display: none;">
+                    <div class="accordion_body">
                         <p>Stay active throughout the season. Monitor waiver wires for breakout players and potential
                             replacements for injured or underperforming players on your roster.</p>
                     </div>
@@ -631,7 +642,7 @@
                         <span class="plusminus">+</span>
 
                     </div>
-                    <div class="accordion_body" style="display: none;">
+                    <div class="accordion_body">
                         <p>Be willing to make adjustments. Adapt your lineup based on matchups, player form, and
                             injuries as the season progresses</p>
                     </div>
@@ -641,7 +652,7 @@
                         <span class="plusminus">+</span>
 
                     </div>
-                    <div class="accordion_body" style="display: none;">
+                    <div class="accordion_body">
                         <p>Plan ahead for bye weeks to ensure you have backups or replacements for players who will
                             be unavailable during those weeks</p>
                     </div>
@@ -650,7 +661,7 @@
                         <span class="plusminus">+</span>
 
                     </div>
-                    <div class="accordion_body" style="display: none;">
+                    <div class="accordion_body">
                         <p>Avoid making knee-jerk reactions after one bad game or a slow start. Stay patient with your
                             draft picks and trust your initial evaluations.
                             </p>
@@ -660,7 +671,7 @@
                         <span class="plusminus">+</span>
 
                     </div>
-                    <div class="accordion_body" style="display: none;">
+                    <div class="accordion_body">
                         <p>Evaluate trade offers carefully. Consider how a trade will impact your team's depth,
                             positional strength, and overall scoring potential before accepting or rejecting.
                             </p>
@@ -670,7 +681,7 @@
                         <span class="plusminus">+</span>
 
                     </div>
-                    <div class="accordion_body" style="display: none;">
+                    <div class="accordion_body">
                         <p>Fantasy football is about having fun and engaging with the sport you love. Stay engaged
                             with your league mates, enjoy the competition, and celebrate your successes, big or small.</p>
                     </div>
@@ -678,9 +689,6 @@
             </div>
         </div>
     </section>
-
-
-
 
     <!-- Footer Start -->
     <footer class="footer">
@@ -694,12 +702,12 @@
                 <ul>
                     <li><a href="./index.html">Home</a></li>
                     <li><a href="./about-us.html">About Us </a></li>
-                    <li><a href="./index.html">Privacy Policy</a></li>
-                    <li><a href="./index.html">Terms and Conditions</a></li>
+                    <li><a href="./privacy-policy.html">Privacy Policy</a></li>
+                    <li><a href="./terms-conditions.html">Terms & Conditions</a></li>
                 </ul>
             </div>
             <div class="footer-items">
-                <h3>Social Links </h3>
+                <h3>Connect With Us</h3>
                 <div class="footer-icons">
                     <div>
                         <a href="" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>

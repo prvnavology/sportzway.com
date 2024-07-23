@@ -32,6 +32,10 @@
         height: 320px;
     }
 
+    .subpage-exp-content {
+        font-weight: 500;
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -197,6 +201,46 @@
         padding: 15px;
     }
 
+    /* Pages CSS Start */
+    .pages-cards-image {
+        height: 280px;
+    }
+
+    .pages-card-content-r1 h3 {
+        font-size: 21px;
+    }
+
+    .pages-card-content-r1 h4 {
+        font-size: 19px;
+    }
+
+    .pages-card-content-r2 h3 {
+        font-size: 20px;
+    }
+
+    .pages-card-content-r2 ul li {
+        font-size: 15px;
+    }
+
+    .list-icon {
+        width: 18px;
+        height: 18px;
+        font-size: 10px;
+    }
+
+    .btn-darkred-block,
+    .pages-link-btn {
+        padding: 8px 20px;
+        font-size: 14px;
+        font-weight: 600;
+        border-radius: 5px;
+    }
+
+    .subpage-exp-content {
+        font-weight: 500;
+        font-size: 15px;
+    }
+
     .banner-image .pages-banner-image {
         height: 280px;
     }
@@ -316,6 +360,62 @@
         width: 100%;
     }
 
+    /* Pages CSS Start */
+    .pages-cards-image {
+        height: 230px;
+    }
+
+    .pages-cards-content {
+        position: static;
+        background: #cbe9bd;
+    }
+
+    .pages-card-content-r1 h3 {
+        font-size: 18px;
+        color: #000;
+    }
+
+    .pages-card-content-r1 {
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .pages-card-content-r1 h4 {
+        font-size: 15px;
+        color: #000;
+    }
+
+    .pages-card-content-r2 {
+        padding: 0px 10px;
+    }
+
+    .pages-card-content-r2 h3 {
+        color: #000;
+    }
+
+    .pages-card-content-r2 ul li {
+        font-size: 14px;
+        color: #000;
+        font-weight: 600;
+    }
+
+    .pages-card-content-r2 {
+        gap: 20px;
+    }
+
+    .subpage-exp-content {
+        font-size: 12px;
+        padding: 0px 15px;
+    }
+
+    section.our-top-recommendations {
+        margin: 50px auto;
+    }
+
+
+
+
+
     .pages-banner-text h1 {
         font-size: 30px;
     }
@@ -366,6 +466,10 @@
         height: 280px;
     }
 
+    .pages-banner-image {
+        height: 220px;
+    }
+
     .banner-text h1 {
         font-size: 40px;
     }
@@ -402,6 +506,18 @@
         font-size: 13px;
 
     }
+
+    /* Pages CSS Start */
+    .pages-cards-image {
+        height: 190px;
+    }
+
+
+    .pages-card-content-r2 ul li {
+        font-size: 13px;
+    }
+
+
 
     .pages-contact-us-form-wrapper h3 {
         font-size: 30px;

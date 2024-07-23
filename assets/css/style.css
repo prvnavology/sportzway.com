@@ -1036,13 +1036,16 @@ fieldset:last-child {
 }
 
 section.our-top-recommendations {
-  padding: 40px;
+ margin: 70px auto;
+ }
+.our-top-recommendations-wrapper{
   max-width: 1120px;
-  margin: 70px auto;
   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
   border-radius: 20px;
-  /* border: 1px solid #545556; */
+   border: 1px solid #545556; 
+   padding: 40px;
 }
+
 
 .top-recommendation-card-group-wrapper {
   display: flex;
@@ -1069,10 +1072,6 @@ section.our-top-recommendations {
 .out-top-recommendations .text-center {
   margin-bottom: 15px;
   margin-top: 15px;
-}
-
-.out-top-recommendations-wrapper {
-  text-align: center;
 }
 
 .top-recommendation-card-r1 {

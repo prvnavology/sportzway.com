@@ -28,8 +28,19 @@
         text-align: center;
     }
 
+    .after-text-card-para p {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
     .banner-image .pages-banner-image {
         height: 320px;
+    }
+
+    .home-signup-input,
+    .home-signup-submit-button {
+        font-size: 16px;
+        padding: 8px 15px;
     }
 
     .subpage-exp-content {
@@ -281,6 +292,35 @@
         padding: 10px;
     }
 
+    .top-recommendation-card-group h3 {
+        font-size: 20px;
+    }
+
+    .top-recommendation-card-group p,.top-recommendation-card-r1 ul li {
+        font-size: 14px;
+    }
+   
+    .home-signup-input {
+        width: 60%;
+    }
+
+    .join-our-forum-wrapper h2 {
+        font-size: 30px;
+    }
+
+    .join-our-forum-wrapper p {
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    .home-signup-input,
+    .home-signup-submit-button {
+        font-size: 16px;
+        padding: 7px 15px;
+    }
+
+
+
     .after-text-card-para p {
         font-size: 15px;
     }
@@ -437,8 +477,15 @@
         padding: 0px 15px;
     }
 
+    .join-our-forum-wrapper p {
+        font-size: 13px;
+    }
+
     section.our-top-recommendations {
         margin: 50px auto;
+    }
+    .top-recommendation-card-group p {
+        font-size: 13px;
     }
 
     .pages-how-we-rate-cards {
@@ -462,7 +509,28 @@
         font-size: 14px;
     }
 
+    .after-text-card-para p {
+        font-size: 14px;
+        font-weight: 500;
+    }
 
+    .join-our-forum-wrapper {
+        padding: 20px;
+    }
+
+    .home-signup-input {
+        width: 85%;
+        font-size: 13px;
+        padding: 6px 15px;
+    }
+
+    .home-signup-submit-button {
+        padding: 6px 20px;
+        font-size: 15px;
+        margin-left: 0px;
+        border-radius: 5px;
+        margin: 10px auto;
+    }
 
 
 
@@ -499,7 +567,17 @@
         width: 100%;
         padding: 15px 20px;
         margin-bottom: 20px;
-        }
+    }
+    .top-recommendation-card-r1 ul li {
+        font-size: 14px;
+    }
+    h2.section-headings {
+        font-size: 24px;
+    }
+
+    .join-our-forum-wrapper h2 {
+        font-size: 26px;
+    }
 
     .accordion_head {
         font-size: 13px;
@@ -634,17 +712,29 @@
         min-width: 120px;
     }
 
+    .join-our-forum-wrapper p {
+        font-size: 12px;
+    }
+
+    .after-text-card-para p {
+        font-size: 13px;
+    }
+
+    .join-our-forum-wrapper h2 {
+        font-size: 23px;
+    }
+
     .out-top-recommendations-wrapper {
         text-align: left;
     }
-   
+
     .top-recommendation-card-r1 h2 {
-        font-size: 20px;
+        font-size: 17px;
         max-width: 220px;
-            }
+    }
 
     .top-recommendation-card-r1 h3 {
-        font-size: 15px;
+        font-size: 13px;
     }
 
     .top-recommendation-card-r1 ul li {
@@ -657,6 +747,9 @@
 
     .top-recommendation-card-group p {
         font-size: 12px;
+    }
+    h2.section-headings {
+        font-size: 22px;
     }
 
 

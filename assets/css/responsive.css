@@ -36,6 +36,15 @@
         font-weight: 500;
         font-size: 16px;
     }
+
+    .accordion_head {
+        font-size: 15px;
+    }
+
+    .footer-items ul li {
+        font-size: 16px;
+    }
+
 }
 
 @media screen and (max-width: 767px) {
@@ -163,8 +172,8 @@
     }
 
     .home-page-services-card-info p {
-        font-size: 16px;
-
+        font-size: 13px;
+        font-weight: 500;
     }
 
     .home-news-card {
@@ -228,18 +237,19 @@
         font-size: 10px;
     }
 
-     .btn-darkred-block    {
+    .btn-darkred-block {
         padding: 8px 20px;
         font-size: 14px;
         font-weight: 600;
         border-radius: 5px;
-    } 
-    .pages-link-btn{
+    }
+
+    .pages-link-btn {
         padding: 8px 20px;
         font-size: 14px;
         font-weight: 600;
         border-radius: 5px;
-            }
+    }
 
     .subpage-exp-content {
         font-weight: 500;
@@ -274,6 +284,20 @@
     .after-text-card-para p {
         font-size: 15px;
     }
+
+    .accordion_head {
+        font-size: 14px;
+    }
+
+    .footer-items ul li {
+        font-size: 15px;
+    }
+
+    .footer-items h3 {
+        font-size: 23px;
+    }
+
+
 
 
 
@@ -323,7 +347,7 @@
     }
 
     .home-page-services-card-info h3 {
-        font-size: 25px;
+        font-size: 20px;
         margin-bottom: 10px;
     }
 
@@ -417,6 +441,28 @@
         margin: 50px auto;
     }
 
+    .pages-how-we-rate-cards {
+        padding: 17px;
+        margin-bottom: 20px;
+    }
+
+    .rate-icon {
+        width: 35px;
+        height: 35px;
+        font-size: 16px;
+    }
+
+    .pages-how-we-rate-cards h3 {
+        font-size: 16px;
+    }
+
+    .pages-how-we-rate-cards p {
+        font-weight: 600;
+        color: #545556;
+        font-size: 14px;
+    }
+
+
 
 
 
@@ -451,6 +497,30 @@
 
     .top-recommendation-card-group {
         width: 100%;
+        padding: 15px 20px;
+        margin-bottom: 20px;
+        }
+
+    .accordion_head {
+        font-size: 13px;
+    }
+
+    .plusminus {
+        font-size: 22px;
+    }
+
+    .footer-items h3 {
+        font-size: 20px;
+    }
+
+    .footer-items ul li {
+        font-size: 14px;
+    }
+
+    .footer-icons i {
+        width: 30px;
+        height: 30px;
+        font-size: 16px;
     }
 
 }
@@ -495,7 +565,7 @@
     .home-page-services-card-image {
         width: 100%;
         border-radius: 0px;
-        max-height: 200px;
+        max-height: 180px;
     }
 
     .home-news-card-content h3 {
@@ -549,18 +619,83 @@
         max-width: 300px;
         margin: 0 auto 15px;
     }
-    .btn-darkred-block    {
-        padding: 8px 20px;
-        font-size: 14px;
-        font-weight: 600;
+
+    .btn-darkred-block {
+        padding: 5px 10px;
+        font-size: 13px;
         border-radius: 5px;
-    } 
-    .pages-link-btn{
-        padding: 8px 20px;
-        font-size: 14px;
-        font-weight: 600;
+        min-width: 120px;
+    }
+
+    .pages-link-btn {
+        padding: 5px 10px;
+        font-size: 13px;
         border-radius: 5px;
+        min-width: 120px;
+    }
+
+    .out-top-recommendations-wrapper {
+        text-align: left;
+    }
+   
+    .top-recommendation-card-r1 h2 {
+        font-size: 20px;
+        max-width: 220px;
             }
+
+    .top-recommendation-card-r1 h3 {
+        font-size: 15px;
+    }
+
+    .top-recommendation-card-r1 ul li {
+        font-size: 13px;
+    }
+
+    .top-recommendation-card-group h3 {
+        font-size: 17px;
+    }
+
+    .top-recommendation-card-group p {
+        font-size: 12px;
+    }
+
+
+
+
+    .pages-how-we-rate-cards {
+        width: 47%;
+        padding: 16px;
+        margin-bottom: 20px;
+    }
+
+    .pages-how-we-rate-cards:last-child {
+        margin: 0 auto;
+    }
+
+
+    .rate-icon {
+        width: 30px;
+        height: 30px;
+        font-size: 15px;
+    }
+
+    .pages-how-we-rate-cards h3 {
+        font-size: 15px;
+    }
+
+    .pages-how-we-rate-cards p {
+        font-weight: 500;
+        font-size: 13px;
+    }
+
+    .accordion_head {
+        font-size: 12px;
+    }
+
+
+
+
+
 
 
 }

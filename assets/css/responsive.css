@@ -228,13 +228,18 @@
         font-size: 10px;
     }
 
-    .btn-darkred-block,
-    .pages-link-btn {
+     .btn-darkred-block    {
         padding: 8px 20px;
         font-size: 14px;
         font-weight: 600;
         border-radius: 5px;
-    }
+    } 
+    .pages-link-btn{
+        padding: 8px 20px;
+        font-size: 14px;
+        font-weight: 600;
+        border-radius: 5px;
+            }
 
     .subpage-exp-content {
         font-weight: 500;
@@ -544,6 +549,18 @@
         max-width: 300px;
         margin: 0 auto 15px;
     }
+    .btn-darkred-block    {
+        padding: 8px 20px;
+        font-size: 14px;
+        font-weight: 600;
+        border-radius: 5px;
+    } 
+    .pages-link-btn{
+        padding: 8px 20px;
+        font-size: 14px;
+        font-weight: 600;
+        border-radius: 5px;
+            }
 
 
 }

@@ -343,7 +343,7 @@ img {
   position: absolute;
   top: 0;
   bottom: 0;
-  background: rgba(0 0 0/50%);
+  background: rgba(0 0 0/55%);
   background-blend-mode: multiply;
 }
 

@@ -251,7 +251,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(0 0 0/60%);
+  background-color: rgba(0 0 0/65%);
   background-blend-mode: multiply;
 }
 
@@ -1088,7 +1088,7 @@ section.our-top-recommendations {
 
 .top-recommendation-card-r1 h3 {
   font-size: 20px;
-  margin: 7px 0;
+  margin: 15px 0;
 }
 
 .top-recommendation-card-r1 ul li {
@@ -1114,8 +1114,7 @@ section.our-top-recommendations {
 .after-text-card-para p {
   color: #545556;
   font-weight: 600;
-  font-size: 20px;
-  margin-bottom: 25px;
+    margin-bottom: 25px;
 }
 
 .home-signup-input-wrapper {
@@ -1261,7 +1260,7 @@ transform: scale(1.1);
 /* Pages News CSS End */
 
 .pages-how-we-rate {
-  padding: 50px 0;
+  padding: 30px 0;
 }
 
 .pages-how-we-rate h2 {
@@ -1398,9 +1397,8 @@ transform: scale(1.1);
 }
 
 .plusminus {
-  font-size: 25px;
-  color: #545556;
-}
+  font-size: 30px;
+    }
 
 
 
@@ -1603,7 +1601,7 @@ section.news-page-info {
   font-size: 17px;
   color: #545556;
   margin-bottom: 10px;
-  line-height: 1.3;
+  line-height: 1.5;
 }
 
 .news-page-details ul li {
@@ -1613,7 +1611,7 @@ section.news-page-info {
   margin-bottom: 3px;
   list-style: disc;
   margin-left: 16px;
-  line-height: 1.3;
+  line-height: 1.5;
   display: flex;
   align-items: center;
 }
@@ -1624,7 +1622,7 @@ section.news-page-info {
   color: #545556;
   margin-bottom: 3px;
   margin-left: 16px;
-  line-height: 1.3;
+  line-height: 1.5;
 }
 
 .news-page-cards {
@@ -1678,15 +1676,14 @@ width: 100%;
 .news-group1 p {
   font-weight: 500;
     margin-bottom: 10px;
-  line-height: 1.3;
+  line-height: 1.5;
 }
 
 .news-group1 ul li {
   font-weight: 500;
- 
-  margin-bottom: 3px;
+   margin-bottom: 3px;
   list-style: disc;
-   line-height: 1.3;
+   line-height: 1.5;
   display: flex;
   align-items: center;
 }
@@ -1694,7 +1691,7 @@ width: 100%;
   font-weight: 500;
    margin-bottom: 3px;
   margin-left: 16px;
-  line-height: 1.3;
+  line-height: 1.5;
 }
 .circle {
   font-size: 7px;

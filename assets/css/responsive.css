@@ -350,7 +350,7 @@
     .top-recommendation-card-r1 ul li ,  .after-text-card-para p {
         font-size: 16px;
         font-weight: 500;
-        margin-bottom: 15px;}
+        margin-bottom: 7px;}
     
 
     .home-signup-input {
@@ -650,6 +650,9 @@
         font-size: 12px;
         padding: 0px 15px;
     }
+    .after-text-card-para p {
+        font-size: 14px;
+    }
 
     .join-our-forum-wrapper p {
         font-size: 13px;
@@ -936,7 +939,7 @@
 
     .pages-banner-text h1 {
         font-size: 25px;
-        max-width: 300px;
+        max-width: 320px;
     }
 
     .pages-banner-text h3 {
@@ -979,7 +982,7 @@
         font-size: 13px;
         margin-bottom: 15px;
     }
-
+   
     .our-top-recommendations-wrapper {
         padding: 40px 10px;
     }
@@ -989,7 +992,7 @@
     }
 
     .top-recommendation-card-r1 ul li {
-        font-size: 13px;
+        font-size: 12px;
     }
 
     .top-recommendation-card-group h3 {

@@ -42,15 +42,18 @@
         font-size: 16px;
         padding: 8px 15px;
     }
+
     .pages-news-cards {
         padding: 10px;
     }
+
     .page-news-cards-text h4 {
         font-size: 18px;
-        }
-        .page-news-cards-image {
-            height: 220px;
-        }
+    }
+
+    .page-news-cards-image {
+        height: 220px;
+    }
 
     .subpage-exp-content {
         font-weight: 500;
@@ -292,10 +295,7 @@
     section.home-page-news-cards {
         padding: 30px 0;
     }
-    .pages-news-card {
-        width: 100%;
-        margin-bottom: 30px;
-     }
+
 
     .pages-intro-wrapper p {
         font-size: 15px;
@@ -310,10 +310,11 @@
         font-size: 20px;
     }
 
-    .top-recommendation-card-group p,.top-recommendation-card-r1 ul li {
+    .top-recommendation-card-group p,
+    .top-recommendation-card-r1 ul li {
         font-size: 14px;
     }
-   
+
     .home-signup-input {
         width: 60%;
     }
@@ -333,8 +334,6 @@
         padding: 7px 15px;
     }
 
-
-
     .after-text-card-para p {
         font-size: 15px;
     }
@@ -351,8 +350,35 @@
         font-size: 23px;
     }
 
+    .pages-news-card {
+        width: 48%;
+        margin-bottom: 20px;
+    }
 
+    .pages-news-card:last-child {
+        width: 100%;
+    }
 
+    .page-news-cards-text h4 {
+        font-size: 16px;
+        max-width: 200px;
+    }
+
+    .news-btn {
+        font-size: 15px;
+        font-weight: 600;
+        padding: 7px 15px;
+    }
+
+    .pages-news-cards h2 {
+        font-size: 30px;
+    }
+    .pages-news-cards h3 {
+        font-size: 18px;
+          max-width: 330px;
+    }
+
+   
 
 
 
@@ -498,6 +524,7 @@
     section.our-top-recommendations {
         margin: 50px auto;
     }
+
     .top-recommendation-card-group p {
         font-size: 13px;
     }
@@ -582,9 +609,11 @@
         padding: 15px 20px;
         margin-bottom: 20px;
     }
+
     .top-recommendation-card-r1 ul li {
         font-size: 14px;
     }
+
     h2.section-headings {
         font-size: 24px;
     }
@@ -615,6 +644,26 @@
         font-size: 16px;
     }
 
+    .page-news-cards-text {
+        padding: 10px 0px;
+    }
+
+    .page-news-cards-text h4 {
+        font-size: 15px;
+    }
+
+    .news-btn {
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .pages-news-cards h2 {
+        font-size: 28px;
+    }
+    .pages-news-cards h3 {
+        font-size: 16px;
+              max-width: 300px;
+    }
 }
 
 
@@ -724,7 +773,7 @@
         font-size: 13px;
         border-radius: 5px;
         min-width: 120px;
-           }
+    }
 
     .join-our-forum-wrapper p {
         font-size: 12px;
@@ -739,7 +788,7 @@
     }
 
     .our-top-recommendations-wrapper {
-              padding: 40px 10px;
+        padding: 40px 10px;
     }
 
     .top-recommendation-card-r1 h2 {
@@ -762,10 +811,11 @@
     .top-recommendation-card-group p {
         font-size: 12px;
     }
+
     h2.section-headings {
         font-size: 22px;
     }
-  
+
 
 
     .pages-how-we-rate-cards {
@@ -798,7 +848,17 @@
         font-size: 12px;
     }
 
+    .pages-news-card {
+        width: 100%;
+    }
 
+    .pages-news-cards h2 {
+        font-size: 25px;
+    }
+    .pages-news-cards h3 {
+        font-size: 14px;
+        max-width: 270px;
+    }
 
 
 

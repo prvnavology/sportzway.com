@@ -251,7 +251,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(0 0 0/65%);
+  background-color: rgba(0 0 0/70%);
   background-blend-mode: multiply;
 }
 
@@ -272,7 +272,7 @@ img {
 }
 
 .banner-text-group {
-  animation: goturn 2.5s ease-in-out forwards;
+  animation: goturn 2s ease-in-out forwards;
   opacity: 0;
   transform: scale(0) translateY(-300px) rotateY(0deg);
   text-align: center;
@@ -801,14 +801,12 @@ fieldset:last-child {
   display: block;
   overflow: hidden;
 }
-
-.pages-banner-text h2 {
-  font-size: 45px;
-  font-weight: 600;
+.pages-banner-text h1{
+  font-size: 50px;
 }
 
 .pages-banner-text h3 {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 600;
   color: #fff;
 }

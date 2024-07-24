@@ -42,6 +42,15 @@
         font-size: 16px;
         padding: 8px 15px;
     }
+    .pages-news-cards {
+        padding: 10px;
+    }
+    .page-news-cards-text h4 {
+        font-size: 18px;
+        }
+        .page-news-cards-image {
+            height: 220px;
+        }
 
     .subpage-exp-content {
         font-weight: 500;
@@ -260,6 +269,7 @@
         font-size: 14px;
         font-weight: 600;
         border-radius: 5px;
+        margin: 5px;
     }
 
     .subpage-exp-content {
@@ -282,6 +292,10 @@
     section.home-page-news-cards {
         padding: 30px 0;
     }
+    .pages-news-card {
+        width: 100%;
+        margin-bottom: 30px;
+     }
 
     .pages-intro-wrapper p {
         font-size: 15px;
@@ -710,7 +724,7 @@
         font-size: 13px;
         border-radius: 5px;
         min-width: 120px;
-    }
+           }
 
     .join-our-forum-wrapper p {
         font-size: 12px;
@@ -724,8 +738,8 @@
         font-size: 23px;
     }
 
-    .out-top-recommendations-wrapper {
-        text-align: left;
+    .our-top-recommendations-wrapper {
+              padding: 40px 10px;
     }
 
     .top-recommendation-card-r1 h2 {
@@ -751,8 +765,7 @@
     h2.section-headings {
         font-size: 22px;
     }
-
-
+  
 
 
     .pages-how-we-rate-cards {

@@ -1074,10 +1074,9 @@ section.our-top-recommendations {
   margin-top: 15px;
 }
 
-.top-recommendation-card-r1 {
+/* .top-recommendation-card-r1 {
   max-width: 770px;
-  margin: 0 auto;
-}
+ } */
 
 .top-recommendation-card-r1 h2 {
   font-size: 30px;
@@ -1184,6 +1183,77 @@ section.our-top-recommendations {
   font-weight: 600;
   color: #fff;
 }
+/* Pages News CSS Start */
+section.pages-news-section {
+  padding: 50px 0;
+}
+.pages-news-cards {
+  text-align: center;
+  border: 1px solid #bdc1c5;
+  padding: 30px;
+  border-radius: 10px;
+}
+.pages-news-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.pages-news-card {
+  width: 32%;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.page-news-cards-image {
+  height: 270px;
+  overflow: hidden;
+}
+.page-news-cards-image img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+transition: 0.5s all ease-in-out;
+}
+.page-news-cards-image img:hover {
+transform: scale(1.1);
+  }
+.page-news-cards-text {
+  padding: 20px;
+  text-align: center;
+  background-color: #c7f4ac;
+  height: 100%;
+}
+.page-news-cards-text h4 {
+  font-size: 20px;
+  margin: 5px auto;
+}
+.news-btn {
+  font-size: 17px;
+  font-weight: 600;
+  border: none;
+  padding: 10px 20px;
+  background: #97fb57;
+  margin: 5px auto 0 auto;
+  display: inline-block;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  transition: 0.3s all ease-in-out;
+}
+.news-btn:hover{
+  background-color: #fff;
+  border-color: #000;
+  color: #000;
+}
+.pages-news-cards h2 {
+  font-size: 40px;
+  margin: 10px auto;
+}
+.pages-news-cards h3 {
+  font-size: 25px;
+  margin: 20px auto 50px;
+}
+
+/* Pages News CSS End */
 
 .pages-how-we-rate {
   padding: 50px 0;
@@ -1563,6 +1633,67 @@ section.news-page-info {
   margin-left: 0;
 }
 
+
+
+
+/* Seprate PAges NEws CSS Start */
+.news-page-card {
+  display: flex;
+  padding: 30px;
+  border: 1px solid #545556;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.news-page-card-info {
+  padding: 20px;
+  background-color: #c2f8a0;
+  border-radius: 0 10px 10px 0;
+  width: 60%;
+}
+.news-page-card-image {
+  border-radius: 10px 0 0 10px;
+  overflow: hidden;
+ max-height: 450px;
+ width: 40%;
+}
+.news-page-card-image img {
+object-fit: cover;
+display: block;
+height: 100%;
+width: 100%;
+}
+
+.news-group1 h3 {
+  margin-bottom: 10px;
+}
+
+.news-group1 p {
+  font-weight: 600;
+  font-size: 17px;
+  color: #545556;
+  margin-bottom: 10px;
+  line-height: 1.3;
+}
+
+.news-group1 ul li {
+  font-weight: 600;
+  font-size: 17px;
+  color: #545556;
+  margin-bottom: 3px;
+  list-style: disc;
+  margin-left: 16px;
+  line-height: 1.3;
+  display: flex;
+  align-items: center;
+}
+.news-group1 ol li {
+  font-weight: 600;
+  font-size: 17px;
+  color: #545556;
+  margin-bottom: 3px;
+  margin-left: 16px;
+  line-height: 1.3;
+}
 .circle {
   font-size: 7px;
   margin-right: 8px;
@@ -1575,3 +1706,15 @@ section.news-page-info {
 .green-circle {
   color: green;
 }
+section.after-news-cards-text {
+  padding: 30px 0;
+}
+.after-news-cards-text-wrapper p {
+  max-width: 1100px;
+  margin: 0 auto;
+  font-weight: 500;
+}
+
+
+
+/* Seprate PAges NEws CSS End */

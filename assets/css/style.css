@@ -702,7 +702,7 @@ fieldset:last-child {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 50px;
+  padding-top: 30px;
   background-color: rgba(0 0 0/50%);
   background-blend-mode: overlay;
 
@@ -766,8 +766,8 @@ fieldset:last-child {
 }
 
 .footer-icons i:hover {
-  transform: scale(1.2);
-  background-color: #97fb57;
+  transform: scale(1.2) rotate(360deg);
+    background-color: #97fb57;
 }
 
 .copyright {

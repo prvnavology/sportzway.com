@@ -27,10 +27,14 @@
         padding: 0 10px;
         text-align: center;
     }
+    .pages-tips-section {
+        padding: 15px 0 40px;
+    }
 
     .after-text-card-para p {
         font-size: 16px;
         font-weight: 500;
+        margin-bottom: 15px;
     }
 
     .banner-image .pages-banner-image {
@@ -42,9 +46,15 @@
         font-size: 16px;
         padding: 8px 15px;
     }
-
+    .pages-banner-text h1 {
+        font-size: 36px;
+        max-width: 550px;
+    }
     .pages-news-cards {
         padding: 10px;
+    }
+    section.pages-news-section {
+        padding: 25px 0;
     }
 
     .page-news-cards-text h4 {
@@ -66,6 +76,15 @@
 
     .footer-items ul li {
         font-size: 16px;
+    }
+
+    .about-us-wrapper>p {
+        font-size: 16px;
+    }
+
+    .about-us-card-content h3 {
+        font-size: 21px;
+
     }
 
 }
@@ -238,6 +257,9 @@
         height: 280px;
     }
 
+    .pages-banner-text h1 {
+        font-size: 34px;
+    }
     .pages-card-content-r1 h3 {
         font-size: 21px;
     }
@@ -302,6 +324,10 @@
         padding: 0 10px;
     }
 
+    .pages-cards-outer-wrapper button {
+        margin: 10px auto;
+    }
+
     section.our-top-recommendations {
         padding: 10px;
     }
@@ -309,6 +335,10 @@
     .top-recommendation-card-group h3 {
         font-size: 20px;
     }
+    .top-recommendation-card-group-wrapper {
+     
+        padding: 25px 0 9px 0;
+           }
 
     .top-recommendation-card-group p,
     .top-recommendation-card-r1 ul li {
@@ -319,9 +349,6 @@
         width: 60%;
     }
 
-    .join-our-forum-wrapper h2 {
-        font-size: 30px;
-    }
 
     .join-our-forum-wrapper p {
         font-weight: 500;
@@ -370,19 +397,123 @@
         padding: 7px 15px;
     }
 
-    .pages-news-cards h2 {
-        font-size: 30px;
-    }
+
     .pages-news-cards h3 {
         font-size: 18px;
-          max-width: 330px;
+        max-width: 330px;
     }
 
-   
+    h2.section-headings {
+        font-size: 30px;
+    }
+
+    .join-our-forum-wrapper h2 {
+        margin: 0 auto 15px;
+    }
+
+    /* About us page CSS Start */
+    .about-card-items {
+        width: 100%;
+    }
+
+    .about-us-card-content h3 {
+        font-size: 19px;
+        margin-bottom: 6px;
+    }
+
+    .about-us-card-content p,
+    .about-us-card-content ul li,
+    .about-us-wrapper>p {
+        font-weight: 500;
+        font-size: 15px;
+    }
+
+    .about-us-card-image {
+        max-height: 250px;
+    }
+
+    .about-us-wrapper {
+        padding-bottom: 30px;
+    }
+
+    /* About us page CSS Start */
 
 
+    /* Pages News Pages CSS Start */
+    .news-page-card-image,
+    .news-page-card-info {
+        width: 100%;
+    }
 
+    .news-page-card-image {
+        border-radius: 10px 10px 0 0;
+        height: 240px;
+    }
 
+    .news-page-card-info {
+        border-radius: 0 0 10px 10px;
+    }
+
+    .news-page-card {
+        padding: 10px;
+    }
+
+    section.after-news-cards-text {
+        padding: 0 0 20px;
+    }
+
+    .news-group1 h3 {
+        font-size: 19px;
+        margin-bottom: 6px;
+    }
+
+    .news-group1 p,
+    .news-group1 ol li,
+    .news-group1 ul li {
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    .after-news-cards-text-wrapper p {
+        font-size: 14px;
+    }
+
+    /* Pages News Pages CSS End*/
+
+    /* Privacy Policy CSS Start */
+    .privacy-policy-group {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .privacy-policy-group p {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .privacy-policy {
+        padding: 20px 0;
+    }
+
+    /* Privacy Policy CSS End */
+
+    
+    /* Terms Conditions CSS Start */
+    .terms-conditions-group h2 {
+        font-size: 24px;
+    }
+
+    .terms-conditions-group h3 {
+        margin-bottom: 8px;
+        font-size: 20px;
+    }
+
+    .terms-conditions-group p,
+    .terms-conditions-group ul li {
+        font-size: 14px;
+        font-weight: 600;
+    }
+    /* Terms Conditions CSS Start */
 
 
 
@@ -521,12 +652,13 @@
         font-size: 13px;
     }
 
-    section.our-top-recommendations {
-        margin: 50px auto;
-    }
+    
 
     .top-recommendation-card-group p {
         font-size: 13px;
+    }
+    .pages-how-we-rate {
+        padding: 25px 0;
     }
 
     .pages-how-we-rate-cards {
@@ -609,6 +741,9 @@
         padding: 15px 20px;
         margin-bottom: 20px;
     }
+    section.our-top-recommendations {
+        margin: 25px auto;
+    }
 
     .top-recommendation-card-r1 ul li {
         font-size: 14px;
@@ -618,9 +753,6 @@
         font-size: 24px;
     }
 
-    .join-our-forum-wrapper h2 {
-        font-size: 26px;
-    }
 
     .accordion_head {
         font-size: 13px;
@@ -657,14 +789,86 @@
         font-weight: 500;
     }
 
-    .pages-news-cards h2 {
-        font-size: 28px;
-    }
     .pages-news-cards h3 {
         font-size: 16px;
-              max-width: 300px;
+        max-width: 300px;
     }
+
+    /* About us page CSS Start */
+    .about-card-items {
+        width: 100%;
+    }
+
+    .about-us-card-content h3 {
+        font-size: 16px;
+        margin-bottom: 6px;
+    }
+
+    .about-us-card-content p,
+    .about-us-card-content ul li,
+    .about-us-wrapper>p {
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    .about-us-card-content {
+        padding: 15px;
+    }
+
+    .about-us-card-image {
+        max-height: 210px;
+
+    }
+
+    /* About us page CSS End */
+
+    /* Pages News Pages CSS Start */
+    section.after-news-cards-text {
+        padding: 0 0 20px;
+    }
+
+    .news-page-card {
+        padding: 0px;
+    }
+
+    .news-group1 h3 {
+        font-size: 19px;
+        margin-bottom: 6px;
+    }
+
+    .after-news-cards-text-wrapper p {
+        font-size: 14px;
+    }
+
+    /* Pages News Pages CSS End*/
+
+    /* Privacy Policy CSS Start */
+
+
+    .privacy-policy-group p {
+        font-size: 14px;
+
+    }
+
+    /* Privacy Policy CSS End */
+
 }
+
+    /* Terms Conditions CSS Start */
+    .terms-conditions-group h2 {
+        font-size: 22px;
+    }
+
+    .terms-conditions-group h3 {
+        margin-bottom: 8px;
+        font-size: 18px;
+    }
+
+     /* Terms Conditions CSS Start */
+
+
+
+
 
 
 
@@ -740,11 +944,12 @@
     }
 
     .pages-banner-text h1 {
-        font-size: 30px;
+        font-size: 25px;
+        max-width: 300px;
     }
 
     .pages-banner-text h3 {
-        font-size: 20px;
+        font-size: 16px;
     }
 
     .banner-image .pages-banner-image {
@@ -781,20 +986,18 @@
 
     .after-text-card-para p {
         font-size: 13px;
+        margin-bottom: 15px;
     }
 
-    .join-our-forum-wrapper h2 {
-        font-size: 23px;
-    }
+
+
 
     .our-top-recommendations-wrapper {
         padding: 40px 10px;
     }
 
-    .top-recommendation-card-r1 h2 {
-        font-size: 17px;
-        max-width: 220px;
-    }
+
+
 
     .top-recommendation-card-r1 h3 {
         font-size: 13px;
@@ -814,6 +1017,11 @@
 
     h2.section-headings {
         font-size: 22px;
+        max-width: 300px;
+    }
+
+    .pages-news-cards h2 {
+        margin: 0 auto;
     }
 
 
@@ -852,15 +1060,64 @@
         width: 100%;
     }
 
-    .pages-news-cards h2 {
-        font-size: 25px;
-    }
     .pages-news-cards h3 {
         font-size: 14px;
         max-width: 270px;
     }
 
+    /* About us page CSS Start */
+    .about-us-card-content p,
+    .about-us-card-content ul li,
+    .about-us-wrapper>p {
+        font-size: 13px;
+    }
 
+    /* About us page CSS End */
+
+    /* Pages News Pages CSS Start */
+    .news-group1 h3 {
+        font-size: 17px;
+        margin-bottom: 6px;
+    }
+
+    .news-group1 p,
+    .news-group1 ol li,
+    .news-group1 ul li {
+        font-weight: 600;
+        font-size: 13px;
+    }
+
+    .after-news-cards-text-wrapper p {
+        font-size: 13px;
+    }
+
+    /* Pages News Pages CSS End*/
+
+    /* Privacy Policy CSS Start */
+
+    .privacy-policy-group p {
+        font-size: 13px;
+
+    }
+
+    /* Privacy Policy CSS End */
+
+    /* Terms Conditions CSS Start */
+    .terms-conditions-group h2 {
+        font-size: 20px;
+    }
+
+    .terms-conditions-group h3 {
+        margin-bottom: 8px;
+        font-size: 16px;
+    }
+
+    .terms-conditions-group p,
+    .terms-conditions-group ul li {
+        font-size: 13px;
+        font-weight: 600;
+    }
+    /* Terms Conditions CSS Start */
 
 
 

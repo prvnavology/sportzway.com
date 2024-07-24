@@ -27,6 +27,7 @@
         padding: 0 10px;
         text-align: center;
     }
+
     .pages-tips-section {
         padding: 15px 0 40px;
     }
@@ -46,13 +47,16 @@
         font-size: 16px;
         padding: 8px 15px;
     }
+
     .pages-banner-text h1 {
         font-size: 36px;
         max-width: 550px;
     }
+
     .pages-news-cards {
         padding: 10px;
     }
+
     section.pages-news-section {
         padding: 25px 0;
     }
@@ -92,7 +96,7 @@
 @media screen and (max-width: 767px) {
 
     .main-navbar-r2 {
-        position:fixed;
+        position: fixed;
         top: 0;
         left: 0;
         height: 100vh;
@@ -260,6 +264,7 @@
     .pages-banner-text h1 {
         font-size: 34px;
     }
+
     .pages-card-content-r1 h3 {
         font-size: 21px;
     }
@@ -335,10 +340,11 @@
     .top-recommendation-card-group h3 {
         font-size: 20px;
     }
+
     .top-recommendation-card-group-wrapper {
-     
+
         padding: 25px 0 9px 0;
-           }
+    }
 
     .top-recommendation-card-group p,
     .top-recommendation-card-r1 ul li {
@@ -497,7 +503,7 @@
 
     /* Privacy Policy CSS End */
 
-    
+
     /* Terms Conditions CSS Start */
     .terms-conditions-group h2 {
         font-size: 24px;
@@ -513,11 +519,8 @@
         font-size: 14px;
         font-weight: 600;
     }
+
     /* Terms Conditions CSS Start */
-
-
-
-
 
 }
 
@@ -538,8 +541,6 @@
         font-size: 25px;
         max-width: 450px;
     }
-
-
 
     .card-content a h3 {
         font-size: 23px;
@@ -652,11 +653,10 @@
         font-size: 13px;
     }
 
-    
-
     .top-recommendation-card-group p {
         font-size: 13px;
     }
+
     .pages-how-we-rate {
         padding: 25px 0;
     }
@@ -705,9 +705,6 @@
         margin: 10px auto;
     }
 
-
-
-
     .pages-banner-text h1 {
         font-size: 30px;
     }
@@ -741,6 +738,7 @@
         padding: 15px 20px;
         margin-bottom: 20px;
     }
+
     section.our-top-recommendations {
         margin: 25px auto;
     }
@@ -854,26 +852,17 @@
 
 }
 
-    /* Terms Conditions CSS Start */
-    .terms-conditions-group h2 {
-        font-size: 22px;
-    }
+/* Terms Conditions CSS Start */
+.terms-conditions-group h2 {
+    font-size: 22px;
+}
 
-    .terms-conditions-group h3 {
-        margin-bottom: 8px;
-        font-size: 18px;
-    }
+.terms-conditions-group h3 {
+    margin-bottom: 8px;
+    font-size: 18px;
+}
 
-     /* Terms Conditions CSS Start */
-
-
-
-
-
-
-
-
-
+/* Terms Conditions CSS Start */
 
 @media screen and (max-width: 480px) {
 
@@ -989,15 +978,9 @@
         margin-bottom: 15px;
     }
 
-
-
-
     .our-top-recommendations-wrapper {
         padding: 40px 10px;
     }
-
-
-
 
     .top-recommendation-card-r1 h3 {
         font-size: 13px;
@@ -1024,8 +1007,6 @@
         margin: 0 auto;
     }
 
-
-
     .pages-how-we-rate-cards {
         width: 47%;
         padding: 16px;
@@ -1035,7 +1016,6 @@
     .pages-how-we-rate-cards:last-child {
         margin: 0 auto;
     }
-
 
     .rate-icon {
         width: 30px;
@@ -1117,8 +1097,7 @@
         font-size: 13px;
         font-weight: 600;
     }
+
     /* Terms Conditions CSS Start */
-
-
 
 }

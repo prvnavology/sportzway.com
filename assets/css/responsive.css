@@ -92,7 +92,7 @@
 @media screen and (max-width: 767px) {
 
     .main-navbar-r2 {
-        position: fixed;
+        position:sticky;
         top: 0;
         left: 0;
         height: 100vh;

@@ -95,12 +95,11 @@ img {
 }
 
 .fixed-header .logo img {
-  width: 30%;
+  width: 30%; 
 }
-
-.fixed-header .main-navbar ul li a {
+ .fixed-header .main-navbar ul li a {
   line-height: 19px;
-  font-size: 14px;
+   font-size: 14px; 
 }
 
 .main-navbar ul li a {

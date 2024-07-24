@@ -347,9 +347,11 @@
     }
 
     .top-recommendation-card-group p,
-    .top-recommendation-card-r1 ul li {
-        font-size: 14px;
-    }
+    .top-recommendation-card-r1 ul li ,  .after-text-card-para p {
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 15px;}
+    
 
     .home-signup-input {
         width: 60%;

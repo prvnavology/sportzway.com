@@ -12,11 +12,10 @@ $(document).ready(function () {
   $(window).scroll(function(){
     if ($(window).scrollTop() >=160) {
         $('header').addClass('fixed-header');
-        $('header').addClass('visible-title');
-    }
+         }
     else {
         $('header').removeClass('fixed-header');
-        $('header').removeClass('visible-title');
+  
     }
 });
 

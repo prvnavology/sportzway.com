@@ -15,7 +15,9 @@ body {
 button,input,textarea {
   font-family: "Raleway", sans-serif;
 }
-
+p{
+  line-height: 1.5;
+}
 h1,
 h2,
 h3,
@@ -433,13 +435,13 @@ img {
 /* Home Page Service CSS End */
 
 section.home-page-news-cards {
-  padding: 70px 0;
+  padding: 20px 0;
 }
 
 .home-page-news-cards h2 {
   text-align: center;
   font-size: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .home-page-news-cards .card-content a h3 {
@@ -449,19 +451,18 @@ section.home-page-news-cards {
 }
 
 .how-we-rate {
-  padding-bottom: 70px;
+  padding-bottom: 50px;
 }
 
 .how-we-rate-wrapper h3 {
   font-size: 40px;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .how-we-rate-wrapper p {
   font-weight: 600;
-  font-size: 18px;
-  line-height: 1.5;
+    line-height: 1.5;
   max-width: 1100px;
   margin: 0 auto;
   color: #545556;
@@ -482,7 +483,7 @@ section.home-page-news-cards {
   backdrop-filter: blur(8px);
   max-width: 800px;
   margin: 0 auto;
-  padding: 50px 20px;
+  padding: 40px 15px;
   border: 1px solid #fff;
   border-radius: 20px;
   overflow: hidden;
@@ -491,8 +492,8 @@ section.home-page-news-cards {
 .pages-contact-us-form-wrapper h3 {
   color: #fff;
   text-align: center;
-  font-size: 50px;
-  max-width: 800px;
+  font-size: 40px;
+  max-width: 520px;
   margin: 0 auto;
 }
 
@@ -736,7 +737,6 @@ fieldset:last-child {
 
 .footer-items ul li {
   font-size: 20px;
-  font-weight: 500;
   margin-bottom: 5px;
   transition: 0.4s all ease-in-out;
 
@@ -759,14 +759,14 @@ fieldset:last-child {
   background: #fff;
   line-height: 35px;
   margin: 0 5px;
-  transition: 0.6s all ease-out;
+  transition: 0.5s all ease-out;
   display: inline-flex;
   justify-content: center;
   align-items: center;
 }
 
 .footer-icons i:hover {
-  transform: scale(1.2) rotate(360deg);
+  transform: scale(1.2);
     background-color: #97fb57;
 }
 
@@ -801,8 +801,10 @@ fieldset:last-child {
   display: block;
   overflow: hidden;
 }
-.pages-banner-text h1{
-  font-size: 50px;
+.pages-banner-text h1 {
+  font-size: 40px;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .pages-banner-text h3 {
@@ -832,11 +834,11 @@ fieldset:last-child {
 .pages-intro-wrapper p {
   max-width: 1130px;
   margin: 0 auto;
-  font-size: 17px;
   font-weight: 500;
   /* text-align: center; */
   color: #545556;
   line-height: 1.5;
+  margin-bottom: 10px;
 }
 
 .checked {
@@ -908,7 +910,7 @@ fieldset:last-child {
   width: 100%;
   gap: 50px;
   padding: 40px;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .pages-card-content-r2 {
@@ -933,7 +935,7 @@ fieldset:last-child {
 }
 
 .pages-card-content-r2 ul li {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
   margin-bottom: 6px;
 }
@@ -941,8 +943,7 @@ fieldset:last-child {
 .subpage-exp-content {
   margin-top: 10px;
   display: none;
-  font-weight: 600;
-  font-size: 18px;
+  font-weight:500;
   color: #545556;
   padding: 0 20px;
 }
@@ -1014,8 +1015,9 @@ fieldset:last-child {
 }
 
 .check-icon {
-  font-size: 20px;
+  font-size: 16px;
   color: #000;
+  min-width: 20px;
 }
 
 .uncheck-icon {
@@ -1092,6 +1094,8 @@ section.our-top-recommendations {
 .top-recommendation-card-r1 ul li {
   margin-bottom: 5px;
   font-weight: 600;
+  display: flex;
+  align-items: center;
 }
 
 .top-recommendation-card-group h3 {
@@ -1224,8 +1228,9 @@ transform: scale(1.1);
   height: 100%;
 }
 .page-news-cards-text h4 {
-  font-size: 20px;
+  font-size: 19px;
   margin: 5px auto;
+  max-width: 220px;
 }
 .news-btn {
   font-size: 17px;
@@ -1430,7 +1435,7 @@ transform: scale(1.1);
 
 .about-us-card-image {
   width: 40%;
- height:300px;
+ /* height:300px; */
   overflow: hidden;
 }
 
@@ -1488,8 +1493,6 @@ transform: scale(1.1);
 }
 
 .privacy-policy-group {
-  width: 49%;
-
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   padding: 20px 25px;
   border-radius: 10px;
@@ -1595,9 +1598,8 @@ section.news-page-info {
 }
 
 .news-page-details p {
-  font-weight: 600;
-  font-size: 17px;
-  color: #545556;
+  font-weight: 500;
+    color: #545556;
   margin-bottom: 10px;
   line-height: 1.5;
 }

@@ -240,7 +240,14 @@
 
     .pages-contact-us-form-wrapper {
         padding: 30px 10px;
-
+        max-width: 450px;
+    }
+    #contact textarea {
+        height: 70px;
+          }
+          
+    #contact button[type="submit"] {
+        padding: 10px 20px;
     }
 
     .pages-contact-us-form-wrapper h3 {
@@ -248,12 +255,12 @@
     }
 
     .pages-contact-us-form-wrapper h3 {
-        font-size: 35px;
+        font-size: 30px;
         margin: 15px auto;
     }
 
     #contact {
-        padding: 15px;
+        padding: 0px;
     }
 
     /* Pages CSS Start */
@@ -347,11 +354,13 @@
     }
 
     .top-recommendation-card-group p,
-    .top-recommendation-card-r1 ul li ,  .after-text-card-para p {
+    .top-recommendation-card-r1 ul li,
+    .after-text-card-para p {
         font-size: 16px;
         font-weight: 500;
-        margin-bottom: 7px;}
-    
+        margin-bottom: 7px;
+    }
+
 
     .home-signup-input {
         width: 60%;
@@ -361,6 +370,10 @@
     .join-our-forum-wrapper p {
         font-weight: 500;
         font-size: 14px;
+    }
+    .join-our-forum-wrapper {
+        padding: 20px;
+        max-width: 450px;
     }
 
     .home-signup-input,
@@ -650,12 +663,16 @@
         font-size: 12px;
         padding: 0px 15px;
     }
+
     .after-text-card-para p {
         font-size: 14px;
     }
 
     .join-our-forum-wrapper p {
         font-size: 13px;
+    }
+    .home-signup-input-wrapper {
+              padding: 15px 20px;
     }
 
     .top-recommendation-card-group p {
@@ -692,9 +709,8 @@
         font-weight: 500;
     }
 
-    .join-our-forum-wrapper {
-        padding: 20px;
-    }
+   
+
 
     .home-signup-input {
         width: 85%;
@@ -982,7 +998,7 @@
         font-size: 13px;
         margin-bottom: 15px;
     }
-   
+
     .our-top-recommendations-wrapper {
         padding: 40px 10px;
     }

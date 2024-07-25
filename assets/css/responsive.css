@@ -29,7 +29,7 @@
     }
 
     .pages-tips-section {
-        padding: 15px 0 40px;
+        padding: 10px 0 40px;
     }
 
     .after-text-card-para p {
@@ -119,7 +119,7 @@
         left: 0;
         height: 100vh;
         width: 100%;
-        padding: 50px;
+        padding: 30px;
         background-color: #fff;
         transform: translateY(100%);
         transition: all 0.3s linear;
@@ -129,15 +129,23 @@
         justify-content: flex-start;
         align-items: center;
     }
+    .main-navbar-r2 ul li a{
+        font-size: 20px;
+    }
 
     .menuToggle .main-navbar-r2 {
         transform: translateX(0);
         z-index: 100;
+        background: grey;
+    }
+    .main-navbar ul li a {
+            background: gray;
     }
 
     .main-navbar-r2 ul {
         flex-direction: column;
         z-index: 50;
+              background: grey;
     }
 
     .main-navbar-r2 ul li {
@@ -154,7 +162,7 @@
 
     .main-navbar ul li a.active {
         color: #97fb57;
-        background-color: #fff;
+        background-color: gray;
     }
 
     .website-header-wrapper {
@@ -307,9 +315,9 @@
     }
 
     .list-icon {
-        width: 18px;
-        height: 18px;
-        font-size: 10px;
+        width: 25px;
+        height: 25px;
+        font-size: 14px;
     }
 
     .btn-darkred-block {
@@ -403,6 +411,9 @@
     .after-text-card-para p {
         font-size: 15px;
     }
+    .pages-how-we-rate {
+        padding: 0px ;
+    }
 
     .accordion_head {
         font-size: 14px;
@@ -440,6 +451,7 @@
     .pages-news-cards h3 {
         font-size: 18px;
         max-width: 330px;
+        margin: 30px auto;
     }
 
     h2.section-headings {
@@ -646,6 +658,8 @@
         margin: 20px auto;
         width: 100%;
     }
+    .join-our-forum-wrapper {
+        padding: 10px;}
 
     /* Pages CSS Start */
     .pages-cards-image {
@@ -674,6 +688,7 @@
 
     .pages-card-content-r2 {
         padding: 0px 10px;
+        gap: 20px;
     }
 
     .pages-card-content-r2 h3 {
@@ -681,15 +696,11 @@
     }
 
     .pages-card-content-r2 ul li {
-        font-size: 14px;
+        font-size: 13px;
         color: #000;
         font-weight: 600;
     }
-
-    .pages-card-content-r2 {
-        gap: 20px;
-    }
-
+ 
     .subpage-exp-content {
         font-size: 12px;
         padding: 0px 15px;
@@ -838,10 +849,10 @@
         font-size: 15px;
         font-weight: 500;
     }
-
-    .pages-news-cards h3 {
+       .pages-news-cards h3 {
         font-size: 16px;
         max-width: 300px;
+        margin: 20px auto 20px;
     }
 
     /* About us page CSS Start */
@@ -972,13 +983,16 @@
         font-size: 13px;
 
     }
+    .home-signup-input-wrapper {
+        padding: 15px 0px;
+    }
 
     /* Pages CSS Start */
     .pages-cards-image {
         height: 190px;
     }
     .pages-card-content-r2 ul li {
-        font-size: 13px;
+        font-size: 12px;
     }
 
 

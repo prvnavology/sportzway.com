@@ -88,8 +88,26 @@
 
     .about-us-card-content h3 {
         font-size: 21px;
-
     }
+       /* Cookies CSS Start */
+   #cookie-bar button {
+    float: left;
+    padding: 7px 15px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#cookie-bar p {
+    width: 100%;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+#contentcookie {
+    padding: 20px 15px;
+    width: 100%;
+}
+/* Cookies CSS End */
 
 }
 
@@ -523,6 +541,9 @@
     .terms-conditions-group h2 {
         font-size: 24px;
     }
+    .terms-conditions-content {
+        padding: 35px 0 20px;
+    }
 
     .terms-conditions-group h3 {
         margin-bottom: 8px;
@@ -536,6 +557,16 @@
     }
 
     /* Terms Conditions CSS Start */
+    /* Cookies CSS Start */
+    #cookie-bar button {
+        font-size: 13px;
+       }
+
+ #cookie-bar p {
+         font-size: 13px;
+        }
+
+    /* Cookies CSS End */
 
 }
 
@@ -884,6 +915,11 @@
 }
 
 /* Terms Conditions CSS Start */
+  /* Cookies CSS Start */
+  #cookie-bar p {
+    font-size: 12px;
+}
+/* Cookies CSS End */
 
 @media screen and (max-width: 480px) {
 

@@ -426,6 +426,9 @@
     .footer-items h3 {
         font-size: 23px;
     }
+    .copyright p{
+        font-size: 14px;
+    }
 
     .pages-news-card {
         width: 48%;
@@ -854,6 +857,9 @@
         max-width: 300px;
         margin: 20px auto 20px;
     }
+    .copyright p{
+        font-size: 13px;
+    }
 
     /* About us page CSS Start */
     .about-card-items {
@@ -986,7 +992,9 @@
     .home-signup-input-wrapper {
         padding: 15px 0px;
     }
-
+    .copyright p{
+        font-size: 12px;
+    }
     /* Pages CSS Start */
     .pages-cards-image {
         height: 190px;

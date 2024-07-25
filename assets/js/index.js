@@ -7,17 +7,23 @@ $(document).ready(function () {
     });
   });
 
+  $(document).ready(function(){
+    $(window).scroll(function(){
+      var header = $("header");
+      header.toggleClass("fixed-header", $(window).scrollTop() > 0 );
+    });
+  });
 
 
-  $(window).scroll(function(){
-    if ($(window).scrollTop() >=160) {
-        $('header').addClass('fixed-header');
-         }
-    else {
-        $('header').removeClass('fixed-header');
+//   $(window).scroll(function(){
+//     if ($(window).scrollTop() >=160) {
+//         $('header').addClass('fixed-header');
+//          }
+//     else {
+//         $('header').removeClass('fixed-header');
   
-    }
-});
+//     }
+// });
 
   $('.subpage-readmore-btn').click(function(e) {
     e.preventDefault();
